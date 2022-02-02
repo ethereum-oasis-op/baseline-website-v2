@@ -1,4 +1,4 @@
-baseurl = "https://baseline-protocol-v2.netlify.app/"
+baseurl = "https://www.baseline-protocol.org/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
