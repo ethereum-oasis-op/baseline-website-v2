@@ -1,0 +1,60 @@
+.footer {
+  @include font-size(1rem);
+  background: $dark;
+  color: $white;
+  border-top: 1px solid $gray-200;
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+
+  p > a {
+    text-decoration: underline;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
+.footer h5 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+.footer a {
+  color: $white;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
+
+.footer svg {
+  width: 20px !important;
+  height: 20px !important;
+  display: inline-block;
+
+  &.logo-light {
+    display: none !important;
+  }
+  &.logo-dark {
+    display: inline-block !important;
+  }
+}
+
+.footer ul {
+  margin-bottom: 1.5rem;
+}
+
+.footer li {
+  font-size: $font-size-sm;
+  margin-bottom: 0;
+}
+
+@include media-breakpoint-up(md) {
+  .footer li {
+    font-size: $font-size-base;
+  }
+}

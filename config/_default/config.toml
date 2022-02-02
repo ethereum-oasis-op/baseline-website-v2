@@ -1,0 +1,111 @@
+baseurl = "https://baseline-protocol-v2.netlify.app/"
+canonifyURLs = false
+disableAliases = true
+disableHugoGeneratorInject = true
+enableEmoji = true
+enableGitInfo = false
+enableRobotsTXT = true
+languageCode = "en-US"
+paginate = 7
+rssLimit = 10
+
+# Multilingual
+defaultContentLanguage = "en"
+# disableLanguages = ["de", "nl"]
+# defaultContentLanguageInSubdir = true
+
+# add redirects/headers
+[outputs]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+section = ["HTML", "RSS", "SITEMAP"]
+
+# remove .{ext} from text/netlify
+[mediaTypes."text/netlify"]
+suffixes = [""]
+delimiter = ""
+
+# add output format for netlify _redirects
+[outputFormats.REDIRECTS]
+mediaType = "text/netlify"
+baseName = "_redirects"
+isPlainText = true
+notAlternative = true
+
+# add output format for netlify _headers
+[outputFormats.HEADERS]
+mediaType = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true
+
+# add output format for section sitemap.xml
+[outputFormats.SITEMAP]
+mediaType = "application/xml"
+baseName = "sitemap"
+isHTML = false
+isPlainText = true
+noUgly = true
+rel  = "sitemap"
+
+[caches]
+  [caches.getjson]
+    dir = ":cacheDir/:project"
+    maxAge = "10s"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[taxonomies]
+  contributor = "contributors"
+  category = 'categories'
+  tag = 'tags'
+
+[permalinks]
+  blog = "/blog/:title/"
+# docs = "/docs/1.0/:sections[1:]/:title/"
+
+[minify.tdewolff.html]
+  keepWhitespace = false
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.80.0"
+    max = ""
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "node_modules/flexsearch"
+    target = "assets/js/vendor/flexsearch"
+  [[module.mounts]]
+    source = "node_modules/katex"
+    target = "assets/js/vendor/katex"
+  [[module.mounts]]
+    source = "node_modules/mermaid"
+    target = "assets/js/vendor/mermaid"
+
+[params]
+  favicon = "images/baseline_logos/favicon.ico"
+  description = ""
+  facebook = ""
+  twitter = "https://twitter.com/baselineproto"
+  instagram = ""
+  youtube = "https://www.youtube.com/channel/UCPkZ73TH69tMBaC111wxHYw/playlists"
+  github = "https://github.com/eea-oasis/baseline"
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  logo = "/images/baseline_logos/baselineLogoMark-All-White.png"
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/hero-bg.png"
+  recent_posts_number = 1
+  mailing_list_subscribe = "mailto:baseline+subscribe@lists.oasis-open-projects.org"
+  custom_css = ["css/custom.css"]
+  mainSections = ["news", "sponsors"]

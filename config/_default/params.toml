@@ -1,0 +1,92 @@
+# Meta Data for SEO
+
+## Homepage
+title = "Baseline Protocol"
+titleSeparator = "-"
+titleAddition = "An Oasis Open Project initiative"
+description = "The Baseline Protocol is an open source initiative that combines advances in cryptography, messaging, and blockchain to deliver secure and private business processes at low cost."
+
+## Documentation
+# docsVersion = "0.3"
+
+## Open Graph
+images = ["baseline-protocol.png"]
+ogLocale = "en_US"
+domainTLD = "baseline-protocol.org"
+titleHome = "Baseline Protocol"
+
+## Twitter Cards
+twitterSite = "@baselineproto"
+twitterCreator = "@baselineproto"
+
+## JSON-LD
+# schemaType = "Person"
+schemaType = "Organization"
+schemaName = "Baseline Protocol"
+schemaAuthor = "OASIS"
+schemaAuthorTwitter = "https://twitter.com/OASISopen"
+schemaAuthorLinkedIn = "https://www.linkedin.com/company/oasis/"
+schemaAuthorGitHub = "https://github.com/eea-oasis"
+schemaLocale = "en-US"
+schemaLogo = "logo-baseline-protocol.svg"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "baseline-protocol.png"
+schemaImageWidth = 1280
+schemaImageHeight = 640
+schemaTwitter = "https://twitter.com/baselineproto"
+schemaLinkedIn = "https://www.linkedin.com/company/baseline-protocol/"
+schemaGitHub = "https://github.com/eea-oasis/baseline"
+schemaSection = "blog"
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "300"
+
+# Footer
+footer = ""
+
+# Feed
+copyRight = "Copyright (c) Baseline Protocol"
+
+# Socials
+socialsDropdown = true
+
+# Alert
+alert = false
+alertDismissable = true
+# alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\" target=\"_blank\" rel=\"noopener\">Check out Doks v0.2</a>"
+alertText = "Introducing the Doks child theme, several DX + UX updates, and more! <a class=\"alert-link stretched-link\" href=\"https://getdoks.org/blog/doks-v0.2/\">Check out Doks v0.2</a>"
+
+# Edit Page
+# repoHost [Github | Gitea | GitLab] is used for building the edit link based on git hoster
+repoHost = "GitHub"
+#repoHost = "Gitea"
+docsRepo = "https://github.com/h-enk/doks"
+docsRepoBranch = "master"
+editPage = false
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  darkMode = true
+  bootStrapJs = true
+  glider = true
+  breadCrumb = false
+  highLight = true
+  kaTex = false
+  collapsibleSidebar = true
+  multilingualMode = false
+  docsVersioning = false

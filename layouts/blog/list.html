@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="container">
+<div class="row">
+  <div class="col-16">
+    <article>
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 card-list">
+				{{ $paginator := .Paginate (.Data.Pages) -}}
+				{{ range $paginator.Pages -}}
+					<div class="col d-flex">
+						<div class="card border-primary bg-white card-body flex-fill mt-0">
+							<h2 class="h4"><a href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
+							<p>{{ .Params.description | safeHTML }}</p>
+							<div class="mt-auto">{{ partial "main/blog-meta.html" . -}}</div>
+						</div>
+					</div>
+				{{ end -}}
+		  </div>
+				{{ $.Scratch.Set "paginator" true }}
+				{{ template "_internal/pagination.html" . }}
+
+    </article>
+  </div>
+</div>
+</div>
+{{ end }}

@@ -1,0 +1,136 @@
+{{ if .Site.Params.alert -}}
+  {{ partial "header/alert.html" . }}
+{{ end -}}
+
+{{ if eq .Site.Params.options.flexSearch false -}}
+<div class="sticky-lg-top">
+{{ end -}}
+
+<div class="header-bar"></div>
+<div class="oasis-banner">
+  <div class="container-xxl">
+    <a href="https://entethalliance.org/eeacommunityprojects/" target="_blank" rel="noreferrer noopener">
+      <img width="254" height="28" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAisAAAA9CAMAAABbYNm1AAAC+lBMVEVHcEz///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////90Tt8gAAAA/nRSTlMAKkVMBwmWZJdYaPVirtglLtz/YambCBCy/fkBdvzeMT7nEhm/eQSN/uhAS/AbH8OFBQufW2r21DDfoAoRsPdpfTM/6bEawn4DjFTyxB43TjRJHW5t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
+    " alt="Logo OASIS Community Projects">
+    </a>
+  </div>
+</div>
+<header class="navbar navbar-expand-md navbar-light doks-navbar sticky-top">
+  <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+    <a class="navbar-brand p-0 me-auto" href="{{ "/" | relLangURL }}" aria-label="{{ .Site.Params.Title }}" title="Go to home">
+      <svg class="logo-light" viewBox="0 0 47 37" width="37" xmlns="http://www.w3.org/2000/svg"><g fill="none"><g fill="#101010"><path d="m13.0262172 10.1939163.093633-.0608365 16.8202247-10.1330798 16.9588015 9.63117871.1011236.06463878-.011236 3.11026621-16.917603 10.1939163-17.071161-9.7338403"/><path d="m30.0188012 26.9082673 16.9811988-9.9082673-.0112807 3.1322197-16.9887193 9.8677803z"/><path d="m13 20.2165343 16.9813637 9.7834657.0186363-3.2127096-16.985091-9.7872904z"/></g><path d="m30.0150409 32.9082673 16.9849591-9.9082673-.0112807 3.1322197-16.9887193 9.8677803z" fill="#df4326"/><path d="m0 20.1740034 29.9848847 16.8259966.0151153-3.1740034-29.98488475-16.8259966z" fill="#df4326"/></g></svg>
+      <svg class="logo-dark" viewBox="0 0 47 37" width="37" xmlns="http://www.w3.org/2000/svg"><g fill="none"><g fill="#fff"><path d="m13.0262172 10.1939163.093633-.0608365 16.8202247-10.1330798 16.9588015 9.63117871.1011236.06463878-.011236 3.11026621-16.917603 10.1939163-17.071161-9.7338403"/><path d="m30.0188012 26.9082673 16.9811988-9.9082673-.0112807 3.1322197-16.9887193 9.8677803z"/><path d="m13 20.2165343 16.9813637 9.7834657.0186363-3.2127096-16.985091-9.7872904z"/></g><path d="m30.0150409 32.9082673 16.9849591-9.9082673-.0112807 3.1322197-16.9887193 9.8677803z" fill="#fff"/><path d="m0 20.1740034 29.9848847 16.8259966.0151153-3.1740034-29.98488475-16.8259966z" fill="#fff"/></g></svg>
+    </a>
+
+    <button class="btn btn-menu d-block d-md-none order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+    </button>
+
+    <div class="offcanvas offcanvas-start border-0 py-md-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
+      <div class="header-bar d-md-none"></div>
+      <div class="offcanvas-header d-md-none">
+        <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="{{ "/" | relLangURL }}">{{ .Site.Params.Title }}</a></h2>
+        <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
+      </div>
+      <div class="offcanvas-body px-4">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Main</h3>
+        <ul class="nav flex-column flex-md-row ms-md-n3">
+          {{- $current := . -}}
+          {{ range .Site.Menus.main -}}
+            {{- $targetBlank := or (in .URL "https://") -}}
+            {{- $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) -}}
+            {{- $active = or $active (eq .Name $current.Title) -}}
+            {{- $active = or $active (and (eq .Name "Docs") (eq $current.Section "docs")) -}}
+            {{- $active = or $active (and (eq .Name "Blog") (eq $current.Section "blog" "authors")) -}}
+            <li class="nav-item">
+              <a class="nav-link ps-0 py-1{{ if $active }} active{{ end }}" href="{{ .URL | relLangURL }}" {{ if $targetBlank }} target="_blank" rel="noreferrer noopener"{{ end }}>{{ .Name }}</a>
+            </li>
+          {{ end -}}
+        </ul>
+        <hr class="text-black-50 my-4 d-md-none">
+        <h3 class="h6 text-uppercase mb-3 d-md-none">Socials</h3>
+        {{ if eq .Site.Params.socialsDropdown true -}}
+          <div class="dropdown d-none d-md-flex ms-md-auto me-md-n5 pe-md-2">
+            <button class="btn dropdown-toggle btn-sm" type="button" id="dropdown-socials" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Socials">
+              {{ partial "svg" "icon-share" }}
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-socials">
+              {{ range .Site.Menus.social -}}
+              <li><a href="{{ .URL | relURL }}" class="dropdown-item">{{ .Pre | safeHTML }}<span class="ms-2">{{ .Name | safeHTML }}</span></a></li>
+              {{ end -}}
+            </ul>
+          </div>
+          <ul class="nav flex-column flex-md-row d-md-none">
+            {{ range .Site.Menus.social -}}
+              <li class="nav-item">
+                <a class="nav-link ps-0 py-1" href="{{ .URL | relURL }}" target="_blank" rel="noreferrer noopener">{{ .Pre | safeHTML }}<small class="ms-2 d-md-none">{{ .Name | safeHTML }}</small></a>
+              </li>
+            {{ end -}}
+          </ul>
+        {{ else -}}
+          <ul class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2">
+            {{ range .Site.Menus.social -}}
+              <li class="nav-item">
+                <a class="nav-link ps-0 py-1" href="{{ .URL | relURL }}" target="_blank" rel="noreferrer noopener">{{ .Pre | safeHTML }}<small class="ms-2 d-md-none">{{ .Name | safeHTML }}</small></a>
+              </li>
+            {{ end -}}
+          </ul>
+        {{ end -}}
+      </div>
+    </div>
+    {{ if .Site.Params.options.darkMode -}}
+    <button id="mode" class="btn btn-link order-md-1" type="button" aria-label="Toggle user interface mode">
+      <span class="toggle-dark"><svg height="20" viewBox="0 0 350 350" width="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m349.728728 210.618654c-17.190293 79.674316-88.051334 139.381346-172.868084 139.381346-97.7601422 0-176.860644-79.100501-176.860644-176.860643 0-84.8167495 59.7070304-155.6777908 139.381347-172.8680838 10.117551-2.18296565 17.567034 9.27591962 11.444287 17.6209346-16.320685 22.2171884-25.101764 49.074933-25.058065 76.6424192 0 71.437663 58.260703 129.697805 129.697805 129.697805 27.566527.043098 54.423197-8.73795 76.639612-25.058065 8.347823-6.122747 19.806708 1.326735 17.623742 11.444287z"/></svg></span>
+      <span class="toggle-light"><svg height="20" viewBox="0 0 55 55" width="20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><g><path d="m27.5 13.4174553c-7.7578947 0-14.0684211 6.3038907-14.0684211 14.0536278s6.3105264 14.0536277 14.0684211 14.0536277 14.0684211-6.3038906 14.0684211-14.0536277-6.3105264-14.0536278-14.0684211-14.0536278z"/><path d="m27.5 9.83175605c1.5052632 0 2.7210526-1.21451104 2.7210526-2.71819138v-4.39537329c0-1.50368034-1.2157894-2.71819138-2.7210526-2.71819138s-2.7210526 1.21451104-2.7210526 2.71819138v4.45320715c0 1.44584648 1.2157894 2.66035752 2.7210526 2.66035752z"/><path d="m11.1736842 15.0368034c.5210526.5205047 1.2157895.809674 1.9105263.809674.6947369 0 1.3894737-.2891693 1.9105263-.809674 1.0421053-1.0410095 1.0421053-2.7760253 0-3.8170347l-3.1263157-3.18086229c-1.0421053-1.04100946-2.77894742-1.04100946-3.82105268 0-1.04210526 1.04100947-1.04210526 2.77602529 0 3.81703469z"/><path d="m9.84210526 27.4710831c0-1.5036804-1.21578947-2.7181914-2.72105263-2.7181914h-4.4c-1.50526316 0-2.72105263 1.214511-2.72105263 2.7181914 0 1.5036803 1.21578947 2.7181913 2.72105263 2.7181913h4.45789474c1.44736842 0 2.66315789-1.214511 2.66315789-2.7181913z"/><path d="m11.1736842 39.9053628-3.12631578 3.1808622c-1.04210526 1.0410095-1.04210526 2.7760253 0 3.8170347.52105263.5205048 1.21578947.8096741 1.91052632.8096741.69473686 0 1.38947366-.2891693 1.91052636-.8096741l3.1263157-3.1230284c1.0421053-1.0410094 1.0421053-2.7760252 0-3.8170347-1.0421052-1.0988433-2.7210526-1.0988433-3.8210526-.0578338z"/><path d="m27.5 45.1104101c-1.5052632 0-2.7210526 1.214511-2.7210526 2.7181914v4.4532071c0 1.5036804 1.2157894 2.7181914 2.7210526 2.7181914s2.7210526-1.214511 2.7210526-2.7181914v-4.4532071c0-1.5036804-1.2157894-2.7181914-2.7210526-2.7181914z"/><path d="m43.8263158 39.9053628c-1.0421053-1.0410095-2.7789474-1.0410095-3.8210526 0-1.0421053 1.0410094-1.0421053 2.7760252 0 3.8170347l3.1263157 3.1230284c.5210527.5205047 1.2157895.809674 1.9105264.809674.6947368 0 1.3894736-.2891693 1.9105263-.809674 1.0421052-1.0410095 1.0421052-2.7760253 0-3.8170347z"/><path d="m52.2789474 24.7528917h-4.4578948c-1.5052631 0-2.7210526 1.214511-2.7210526 2.7181914 0 1.5036803 1.2157895 2.7181913 2.7210526 2.7181913h4.4578948c1.5052631 0 2.7210526-1.214511 2.7210526-2.7181913 0-1.5036804-1.2157895-2.7181914-2.7210526-2.7181914z"/><path d="m41.9157895 15.7886435c.6947368 0 1.3894737-.2891693 1.9105263-.809674l3.1263158-3.1230284c1.0421052-1.0410094 1.0421052-2.77602522 0-3.81703469-1.0421053-1.04100946-2.7789474-1.04100946-3.8210527 0l-3.1263157 3.12302839c-1.0421053 1.0410095-1.0421053 2.7760252 0 3.8170347.5210526.5783386 1.2157894.809674 1.9105263.809674z"/></g></svg></span>
+    </button>
+    {{ end -}}
+
+    {{ if eq .Site.Params.options.multilingualMode true -}}
+    <div class="dropdown order-md-2">
+      <button class="btn btn-doks-light dropdown-toggle" id="doks-languages" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+        {{ .Site.Params.languageISO }}
+        <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow rounded border-0" aria-labelledby="doks-languages">
+
+        <li><a class="dropdown-item current" aria-current="true" href="{{ .RelPermalink }}">{{ .Site.Language.LanguageName }}</a></li>
+
+        <li><hr class="dropdown-divider"></li>
+
+      {{ if .IsTranslated -}}
+        {{ range .Translations }}
+          <li><a class="dropdown-item" rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .Language.LanguageName }}</a></li>
+        {{ end -}}
+      {{ else -}}
+        {{ range .Site.Languages -}}
+          {{ if ne $.Site.Language.Lang .Lang }}
+            <li><a class="dropdown-item" rel="alternate" href="{{ .Lang | relLangURL }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .LanguageName }}</a></li>
+          {{ end -}}
+        {{ end -}}
+      {{ end -}}
+        <!--
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="/docs/contributing/how-to-contribute/">Help Translate</a></li>
+        -->
+      </ul>
+    </div>
+    {{ end -}}
+  </nav>
+</header>
+
+{{ if eq .Site.Params.options.flexSearch false }}
+</div>
+{{ end -}}
+
+{{ if eq .Section "blog" -}}
+<nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">
+  <div class="container-xxl d-flex align-items-md-center">
+    <nav class="nav">
+      {{ range .Site.Menus.secondary -}}
+        {{- $targetBlank := or (in .URL "https://") -}}
+        <a class="nav-link text-dark" href="{{ .URL | relURL }}" {{ if $targetBlank }} target="_blank" rel="noreferrer noopener"{{ end }}>{{ .Name | safeHTML }}</a>
+      {{ end -}}
+    </nav>
+  </div>
+</nav>
+{{ end -}}

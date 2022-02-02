@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{ if .Params.headerImage -}}
+    <div class="page-header">
+      <div class="page-title">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-16 col-lg-14 col-xl-12">
+              <h1>{{ .Title }}</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="{{ .Params.headerImage }}" class="img-fluid" alt="">
+    </div>
+  {{ end -}}
+  {{ .Content }}
+{{ end }}

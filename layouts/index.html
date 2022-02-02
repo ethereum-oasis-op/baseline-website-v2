@@ -1,0 +1,221 @@
+{{ define "main" }}
+<section class="jumbotron">
+  <div class="row align-items-center">
+    <div class="col-16 jumbotron-content">
+      <h1 class="mt-0">{{ .Title }}</h1>
+      <h2 class="mt-0 h4">The standard for</h2>
+      <ul class="list-unstyled text-primary mb-5">
+        <li>Universal Verified State Synchronization &</li>
+        <li>Multiparty Coordination Using Zero Knowledge</li>
+      </ul>
+      <a href="/get-baselined/" class="btn btn-lg btn-primary me-1 me-lg-4">Get Baselined</a>
+      <a href="/become-a-sponsor/" class="btn btn-lg btn-primary">Become a Sponsor</a>
+    </div>
+</section>
+{{ end }} {{ define "sidebar-prefooter" }} {{ if eq $.Site.Language.LanguageName
+"English" }}
+<section class="section">
+  <div class="container-xxl">
+    <div class="row row-cols-1 row-cols-lg-2">
+      <div class="col pe-lg-5">
+        <h2 class="h4 mt-0">What is the Baseline Protocol?</h2>
+        <p>The Baseline Protocol is a framework that enables enterprises to synchronize complex, multiparty, business processes with privacy and without moving data from systems of record.</p>
+        <p>Zero Knowledge circuits employ a common frame of reference that allows all parties in a networked business process to maintain their own systems-of-record in a verified state of consistency. Public blockchain is advised but not required.</p>
+      </div>
+      <div class="col">
+        <div class="ratio ratio-16x9">
+          <iframe
+            class="lazyload"
+            width="560"
+            height="315"
+            data-src="https://www.youtube.com/embed/-P6uH-7kQWU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section pt-0">
+  <div class="container-xxl">
+    <div class="row row-cols-1 row-cols-lg-3">
+      <div class="col d-flex text-center">
+        <div class="card bg-white border-primary mt-0 card-body flex-fill py-4">
+          <div class="card-img">
+            <img data-src="/images/get-baselined.svg" alt="" class="lazyload d-block m-auto" width="120">
+          </div>
+          <h2 class="h4">Get Baselined</h2>
+          <p>Ready to enable the benefits of Baselining? Visit here to get in touch with a solutions provider or become one.</p>
+          <a href="/get-baselined/" class="btn btn-lg btn-outline-primary mt-auto">Get Baselined</a>
+        </div>
+      </div>
+      <div class="col d-flex text-center">
+        <div class="card bg-white border-primary mt-0 card-body flex-fill py-4">
+          <div class="card-img">
+            <img data-src="/images/become-sponsor.svg" alt="" class="lazyload d-block m-auto" width="152">
+          </div>
+          <h2 class="h4">Become a Sponsor</h2>
+          <p>Be recognized for your support, participate in governance, and gain OASIS membership benefits.</p>
+          <a
+            class="btn btn-lg btn-outline-primary mt-auto"
+            href="/become-a-sponsor/"
+            >Read more</a>
+        </div>
+      </div>
+      <div class="col d-flex text-center">
+        <div class="card bg-white border-primary mt-0 card-body flex-fill py-4">
+          <div class="card-img">
+            <img data-src="/images/read-the-standard.svg" alt="" class="lazyload d-block m-auto" width="152">
+          </div>
+          <h2 class="h4">Explore our Resources</h2>
+          <p>Read the code respository, documentation, and standards.</p>
+          <a href="/resources/" class="btn btn-lg btn-outline-primary mt-auto">Read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section pt-0">
+  <div class="container-xxl">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center pb-4">
+        <h2 class="mt-0">Get Involved</h2>
+        <p>We encourage everyone interested in learning more or accelerating the Baseline Protocol to join our open source teams!</p>
+        <p>
+          <a href="/get-involved/" class="btn btn-lg btn-primary">Join our open source teams</a>
+        </p>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-lg-3 text-center">
+      <div class="col">
+        <img src="/images/icon-rocket.svg" alt="" width="100">
+        <h3 class="h4 text-primary">Baseline Core Devs</h3>
+        <p>Core Devs are the backbone of the community and have an active role in developing and enhancing the protocol.</p>
+      </div>
+      <div class="col">
+        <img src="/images/icon-group.svg" alt="" width="100">
+        <h3 class="h4 text-primary">Outreach Team</h3>
+        <p>Members communicate, advocate, and educate the world on the advantages of using and contributing to the protocol.</p>
+      </div>
+      <div class="col">
+        <img src="/images/icon-document.svg" alt="" width="100">
+        <h3 class="h4 text-primary">Standards Team</h3>
+        <p>Members of the standards team work to define and contribute to the specifications of baseline compliance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section pt-0">
+  <div class="container-xxl">
+    <div class="row row-cols-1 row-cols-lg-2">
+      <div class="col">
+        <div class="ratio ratio-16x9">
+          <iframe
+            class="lazyload"
+            width="560"
+            height="315"
+            id="baseline-show"
+            data-src="https://www.youtube.com/embed/sfrk-SCozc4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <div class="col ps-lg-5">
+        <h2 class="h4 mt-md-0">The Baseline Show - every Wednesday @ 12pm EST</h2>
+        <p>Baseline Office Hours - weekly session with guest interviews, featured community members, and engaging discussions.</p>
+        <p>General Assembly - monthly community updates.</p>
+        <h2 class="h4">The Baseline Show India - every Saturday @ 6pm IST</h2>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section pt-0">
+  <div class="container-xxl">
+    <div class="row row-cols-1 row-cols-lg-2">
+      <div class="col">
+        <h2 class="h4 mt-0 mt-md-4">Blog</h2>
+        <p>Read our blog and stay up to date!</p>
+        {{ range first 1 (where .Site.RegularPages.ByDate.Reverse "Section" "blog") -}}
+          <div class="card card-body pt-4">
+            <h3 class="h4 mt-0">
+              <a href="{{ .RelPermalink }}">{{ .Params.title }}</a>
+            </h3>
+            <p>{{ .Params.description | safeHTML }}</p>
+            {{ partial "main/blog-meta.html" . -}}
+          </div>
+        {{ end -}}
+      </div>
+      <div class="col">
+        <h2 class="h4">Shop</h2>
+        <p>Check out our Baseline swag.</p>
+        <div class="row row-cols-1 row-cols-lg-3 mb-4 pt-4">
+          <a
+            href="https://www.redbubble.com/i/t-shirt/Baseline-by-OASISopen/46286447.NL9AC"
+            class="col"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg=="
+              width="220"
+              height="200"
+              data-src="images/swag/tshirt-male.webp"
+              alt="Baseline t-shirt male"
+              class="img-thumbnail lazyload blur-up"
+            />
+          </a>
+          <a
+            href="https://www.redbubble.com/i/t-shirt/Baseline-by-OASISopen/46286447.8PZ5B"
+            class="col d-none d-md-flex"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg=="
+              width="220"
+              height="200"
+              data-src="images/swag/tshirt-female.webp"
+              alt="Baseline t-shirt female"
+              class="img-thumbnail lazyload blur-up"
+            />
+          </a>
+          <a
+            href="https://www.redbubble.com/i/hoodie/Baseline-by-OASISopen/46286447.GQV8B"
+            class="col d-none d-md-flex"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8z8BQDwAEhQGAhKmMIQAAAABJRU5ErkJggg=="
+              width="220"
+              height="200"
+              data-src="images/swag/hoodie-male.webp"
+              alt="Baseline hoodie male"
+              class="img-thumbnail lazyload blur-up"
+            />
+          </a>
+        </div>
+        <a
+          href="https://www.redbubble.com/people/oasisopen/works/46286447-baseline"
+          class="btn btn-lg btn-outline-primary"
+          target="_blank"
+          rel="noreferrer noopener"
+          >Go to the shop</a
+        >
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }} {{ end }} {{ define "sidebar-footer" }}
+<section class="section-md container-xxl pt-0">
+  <h2 class="h4 mt-0">EEA Community Projects Sponsors</h2>
+  {{ partial "footer/sponsors.html" . }}
+  <p class="mb-0">You can also <a href="https://lists.oasis-open-projects.org/g/baseline" target="_blank" rel="noreferrer noopener">Join our Mailing List</a> to stay up to date. Have something else in mind? Email <a href="mailto:op-admin@oasis-open.org">op-admin@oasis-open.org</a> for more information.</p>
+</section>
+{{ end }}

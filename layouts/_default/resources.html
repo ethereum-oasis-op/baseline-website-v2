@@ -1,0 +1,110 @@
+{{ define "main" }}
+  {{ if .Params.headerImage -}}
+    <div class="page-header">
+      <div class="page-title">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-16 col-lg-14 col-xl-14">
+              <h1>{{ .Title }}</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="{{ .Params.headerImage }}" class="img-fluid" alt="">
+    </div>
+  {{ end -}}
+  {{ .Content }}
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-16 col-lg-14 col-xl-14">
+      <h2 class="mt-0">Follow our activity</h2>
+      <div class="row row-cols-1 row-cols-lg-3">
+        <div class="col d-flex">
+          <div class="card mt-0 mb-4 mb-lg-0 card-body flex-fill">
+            <h3 class="h4">Technical</h3>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="https://docs.baseline-protocol.org/" target="_blank" rel="noreferrer noopener">
+                  {{ partial "logo" "gitbook" . }}
+                  <h4 class="h6 mt-2 mb-0">Documentation</h4>
+                  <p class="fs-6">Review the documentation</p>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/eea-oasis/baseline" target="_blank" rel="noreferrer noopener">
+                  {{ partial "svg" "icon-github" . }}
+                  <h4 class="h6 mt-2 mb-0">Code</h4>
+                  <p class="fs-6">Review the code on Github</p>
+                </a>
+              </li>
+<!--              <li>-->
+<!--                <a href="#" target="_blank" rel="noreferrer noopener">-->
+<!--                  {{ partial "logo" "zenhub" . }}-->
+<!--                  <h4 class="h6 mt-2 mb-0">Road Map</h4>-->
+<!--                  <p class="fs-6 mb-0">View the ZenHub Tasks List</p>-->
+<!--                </a>-->
+<!--              </li>-->
+            </ul>
+          </div>
+        </div>
+        <div class="col d-flex">
+          <div class="card mt-0 mb-4 mb-lg-0 card-body flex-fill">
+            <h3 class="h4">News & Insights</h3>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#" target="_blank" rel="noreferrer noopener">
+                  {{ partial "logo" "youtube" . }}
+                  <h4 class="h6 mt-2 mb-0">Office Hours & Demos</h4>
+                  <p class="fs-6">Subscribe to our channel on YouTube</p>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noreferrer noopener">
+                  {{ partial "logo" "twitter" . }}
+                  <h4 class="h6 mt-2 mb-0">Latest Updates</h4>
+                  <p class="fs-6">Follow us on Twitter</p>
+                </a>
+              </li>
+<!--              <li>-->
+<!--                <a href="#" target="_blank" rel="noreferrer noopener">-->
+<!--                  {{ partial "logo" "medium" . }}-->
+<!--                  <h4 class="h6 mt-2 mb-0">Insights</h4>-->
+<!--                  <p class="fs-6 mb-0">Follow us on Medium</p>-->
+<!--                </a>-->
+<!--              </li>-->
+            </ul>
+          </div>
+        </div>
+        <div class="col d-flex">
+          <div class="card mt-0 card-body flex-fill">
+            <h3 class="h4">Conversations</h3>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="https://join.slack.com/t/ethereum-baseline/shared_invite/zt-d6emqeci-bjzBsXBqK4D7tBTZ40AEfQ" target="_blank" rel="noreferrer noopener">
+                  {{ partial "logo" "slack" . }}
+                  <h4 class="h6 mt-2 mb-0">Main Engagement</h4>
+                  <p class="fs-6">Follow the Conversation on Slack</p>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noreferrer noopener">
+                  {{ partial "logo" "discord" . }}
+                  <h4 class="h6 mt-2 mb-0">Tech Talk</h4>
+                  <p class="fs-6">Follow the Conversation on Discord</p>
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noreferrer noopener">
+                  {{ partial "logo" "telegram" . }}
+                  <h4 class="h6 mt-2 mb-0">Side Discussions</h4>
+                  <p class="fs-6 mb-0">Follow the Conversation on Telegram</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

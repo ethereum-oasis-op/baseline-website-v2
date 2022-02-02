@@ -1,0 +1,28 @@
+.card-list {
+ h2 {
+   font-weight: 600;
+   a {
+    color: $body-color;
+   }
+ }
+
+ .card.border-primary {
+  border-color: $orange-subtle !important;
+ }
+}
+
+.card-body {
+  padding: 0.75rem;
+
+  .blog-meta {
+    margin-bottom: 0;
+  }
+
+  p:empty {
+    display: none;
+  }
+
+  @include media-breakpoint-up(sm) {
+    padding: $card-spacer-y $card-spacer-x;
+  }
+}

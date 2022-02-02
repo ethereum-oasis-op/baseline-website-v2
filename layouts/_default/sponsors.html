@@ -1,0 +1,153 @@
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+
+  <div class="row">
+  <div class="col-16 col-md-10">
+    <h2>Join</h2>
+    <p>The Baseline Protocol, part of <a href="(https://entethalliance.org/eeacommunityprojects/">EEA Community Projects</a>, advances a standard method for universal verified state synchronization using the public Ethereum Mainnet. Join other industry-leading organizations in supporting this unique approach to low-cost, multiparty coordination under zero knowledge.</p>
+    <p>Technical participation is free and open to all developers, which is why Baseline relies on a core group of stakeholder organizations whose financial commitment ensures that the initiative stays on track and receives the resources it needs to succeed.</p>
+    <a href="#join" class="btn btn-lg btn-primary smooth-scroll" data-duration="200">Become a Baseline Member today</a>
+    <h2 class="h5 mt-5">EEA Community Projects Sponsors</h2>
+    {{ partial "main/sponsors.html" . }}
+  </div>
+  <div class="col-md-6">
+    <img width="287" data-src="/images/get-baselined.svg" alt="" class="img-fluid lazyload d-none d-md-block">
+  </div>
+</div>
+<div class="section pt-3">
+  <h2>Why your company should become a sponsor</h2>
+  <p>By joining EEA Community Projects, your company ensures that the Baseline protocol gets done right and gets to...</p>
+  <ul class="benefits">
+    <li>Reap the benefits of secure multi-party workflows</li>
+    <li>Be recognized as part of a global alliance of leaders in state synchronization and zero-knowledge</li>
+    <li>Take advantage of shared community development to accelerate and augment your own R&D</li>
+    <li>Build consensus on key issues</li>
+    <li>Get short-listed by prospective Baseline customers who require interoperable solutions</li>
+    <li>Be recognized for your ability to interoperate in an ecosystem with other leading organizations</li>
+  </ul>
+  <p>
+    Members provide funding that's necessary for Baseline’s technical administration, IP management, governance, collaboration tools, community support, outreach, event services, and incentives for technical contributions.
+  </p>
+</div>
+<div class="section pt-0">
+  <h2 class="mt-0">Membership Benefits</h2>
+  <div class="container-fluid">
+  <div class="row row-cols-1 row-cols-lg-3 benefits">
+    <div class="col">
+      <div class="p-md-3">
+        <img src="/images/account-balance.png" alt="" class="lazyload mt-4" width="100">
+        <h3>Governance</h3>
+        <ul>
+          <li>Guide Baseline agenda with a seat on the EEA Community Projects Governing Board (one-org/one-vote). Have a seat at the table with other leaders in the industry and help determine the strategic direction of Baseline and other EEA Community Projects</li>
+          <li>Vote to approve Baseline Specifications and other deliverables</li>
+          <li>Decide which Baseline deliverables to advance through the OASIS standards process</li>
+          <li>Determine when approved work should be submitted to ISO, IEC, ITU, etc.</li>
+          <li>Receive greater insight into Baseline roadmaps </li>
+          <li>Forge productive partnerships by engaging with industry leaders</li>
+          <li>Help select open source license(s) used by EEA Community Projects</li>
+          <li>Elect Governing Board Chair(s)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col">
+      <div class="p-md-3">
+        <img src="/images/remove-red-eye.png" alt="" class="lazyload mt-4" width="100">
+        <h3>Visibility</h3>
+        <ul>
+          <li>Receive actionable leads from prospects by being featured on the Get Baselined web page</li>
+          <li>Enjoy prominent placement of your logo on the Baseline website and marketing materials</li>
+          <li>Create an announcement of your membership with help from the EEA and OASIS PR teams</li>
+          <li>Be identified in all Baseline press releases</li>
+          <li>See your executives quoted in Baseline press releases and on website testimonials</li>
+          <li>Speak on behalf of Baseline at conferences, workshops, etc.</li>
+          <li>Participate in Baseline interoperability demos, plugfests, and product showcases</li>
+          <li>Build goodwill with prospects and developers by including your organization on the <li>Baseline member roster</li>
+          <li>Demonstrate your leadership position by using the Baseline logo on your collateral</li>
+          <li>Attract prospects by promoting your use cases on the Baseline website</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col">
+      <div class="p-md-3">
+        <img src="/images/logo-oasis.png" alt="" class="lazyload mt-4" width="100">
+        <h3>Full OASIS Open Membership</h3>
+        <ul>
+          <li>EEA Community Projects members also receive all the benefits of corporate sponsorship in the global OASIS Open.</li>
+          <li>Vote on all candidate OASIS Standards (not just Baseline)</li>
+          <li>Nominate candidates and vote in OASIS Board of Directors elections</li>
+          <li>Hold an elected seat on OASIS Board of Directors</li>
+          <li>Enjoy featured placement of your logo on OASIS Open website and roster</li>
+          <li>Promote your relevant conference presentations in OASIS events calendar</li>
+          <li>Save money with discounts on sponsoring and attending OASIS-hosted events</li>
+          <li>Get advice from OASIS senior management on your open source contributions and ideas for new projects</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+<div class="section pt-0">
+  <h2 class="mt-0">Annual Membership Dues</h2>
+  <table class="table table-striped">
+    <tbody>
+      <tr>
+        <td>2,000+ employees</td>
+        <td class="text-end">$26,500</td>
+      </tr>
+      <tr>
+        <td>500-1,999 employees</td>
+        <td class="text-end">$16,000</td>
+      </tr>
+      <tr>
+        <td>100-499 employees</td>
+        <td class="text-end">$10,600</td>
+      </tr>
+      <tr>
+        <td>10-99 employees</td>
+        <td class="text-end">$ 5,300</td>
+      </tr>
+      <tr>
+        <td>Fewer than 10 employees</td>
+        <td class="text-end">$ 2,200</td>
+      </tr>
+      <tr>
+        <td>Nonprofit, university, local or non-OECD government</td>
+        <td class="text-end">$ 1,100</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="section pt-0" id="join">
+  <h2 class="mt-0">Become a Baseline Member today</h2>
+  <div class="row row-cols-1 row-cols-lg-2">
+    <div class="col d-flex">
+      <div class="card card-body flex-fill">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
+            <img src="/images/touch-app.png" alt="" loading="lazy" width="80">
+          </div>
+          <div class="flex-grow-1 ms-5">
+            <h4 class="h5 mt-0">Submit Member Agreement</h4>
+            <a href="https://www.oasis-open.org/join-2/member-agreement-op-2021-1-26/" class="btn btn-lg btn-primary">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex">
+      <div class="card card-body flex-fill">
+        <div class="d-flex">
+          <div class="flex-shrink-0">
+            <img src="/images/record-voice-over.png" alt="" loading="lazy" width="80">
+          </div>
+          <div class="flex-grow-1 ms-5">
+            <h4 class="h5 mt-0">Discuss Membership</h4>
+            <a href="mailto:join@oasis-open.org" class="btn btn-lg btn-primary">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</article>
+{{ end }}

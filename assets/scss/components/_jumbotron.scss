@@ -1,0 +1,57 @@
+.jumbotron {
+  @include padding-top(3rem);
+  @include padding-bottom(3rem);
+
+  h1 {
+    @include font-size(2.5rem);
+
+    @include media-breakpoint-up(md) {
+      @include font-size(3rem);
+    }
+  }
+
+  h2 {
+     @include font-size(1rem);
+
+     @include media-breakpoint-up(sm) {
+      @include font-size(1.4rem);
+    }
+  }
+
+  ul {
+    @include font-size(1.1rem);
+    font-weight: 600;
+
+    li {
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    @include media-breakpoint-up(sm) {
+      @include font-size(1.2rem);
+    }
+  }
+
+  .btn {
+    min-width: 100%;
+    margin-bottom: 1rem;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    @include media-breakpoint-up(sm) {
+      min-width: 150px;
+      margin-bottom: 0;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    @include padding-top(8rem);
+    @include padding-bottom(8rem);
+
+    ul {
+      @include font-size(1.5rem);
+    }
+  }
+}

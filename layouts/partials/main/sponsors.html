@@ -1,0 +1,16 @@
+<div class="sponsors-container {{ if .Site.Params.options.glider -}}glide mb-4{{ end -}}">
+  <div class="glide__track" data-glide-el="track">
+    <ul class="sponsors {{ if .Site.Params.options.glider -}}glide__slides{{ end -}}">
+      {{ range where .Site.RegularPages "Section" "sponsors" }}
+        <li class="glide__slide">
+          <a href="{{ .Params.company_url }}">
+            <img width="70" height="70" data-src="{{ .Params.logo }}" alt="Logo from {{ .Params.company_name }}" class="lazyload blur-up logo-light">
+            {{ if .Params.logoDark -}}
+              <img width="70" height="70" data-src="{{ .Params.logoDark }}" alt="Logo from {{ .Params.company_name }}" class="lazyload blur-up logo-dark">
+            {{ end -}}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>

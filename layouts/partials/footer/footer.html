@@ -1,0 +1,65 @@
+<footer class="footer mt-auto py-5">
+  <div class="container-xxl">
+    <div class="row">
+      <div class="col-16 col-lg-8">
+        <p>The Baseline Protocol is <a href="https://oasis-open-projects.org/">part of the EEA Community Projects, an OASIS Managed Open Project</a>. All Rights Reserved.
+          <br>OASIS <a href="https://www.oasis-open.org/policies-guidelines/trademark">trademark</a>, <a href="https://www.oasis-open.org/policies-guidelines/ipr">IPR</a>, <a href="https://www.oasis-open.org/policies-guidelines/privacy">Privacy</a>, and other <a href="https://www.oasis-open.org/policies-guidelines">policies</a> apply.
+          <br><a href="mailto:communications@oasis-open.org">Contact OASIS</a> for details.</p>
+
+          <div>
+              <p>Subscribe to our <a href="mailto:baseline+subscribe@lists.oasis-open-projects.org"> mailing list</a>.</p>
+              <p>© {{ now.Year }} OASIS Open</p>
+          </div>
+
+      </div>
+      <div class="col-16 col-lg-4">
+          <h4 class="h5">Resources</h4>
+          <ul class="list-unstyled">
+              <li><a class="d-flex py-1" href="https://docs.baseline-protocol.org/" target="_blank" rel="noreferrer noopener">{{ partial "svg" "icon-gitbook" }}<span class="ms-2">Documentation</a></li>
+              <li><a class="d-flex py-1" href="https://github.com/eea-oasis/baseline" target="_blank" rel="noreferrer noopener">{{ partial "svg" "icon-github" }}<span class="ms-2">Code</span></a></li>
+              <li><a class="d-flex py-1" href="https://github.com/eea-oasis/baseline-standard" target="_blank" rel="noreferrer noopener">{{ partial "svg" "icon-github" }}<span class="ms-2">Standards</span></a></li>
+          </ul>
+          <h4 class="h5">Show Your Support</h4>
+          <ul class="list-unstyled">
+              <li>
+                <a class="d-flex py-1" href="https://www.redbubble.com/people/oasisopen/works/46286447-baseline" target="_blank" rel="noreferrer noopener">
+                  {{ partial "svg" "symbol-baseline" }}<span class="ms-2">Baseline Swag</span>
+                </a>
+              </li>
+          </ul>
+      </div>
+      <div class="col col-lg-4">
+          <h4 class="h5">Follow the Discussions</h4>
+          <ul class="list-unstyled">
+            {{ range .Site.Menus.social -}}
+              {{ if (ne .Name "GitHub") }}
+                <li>
+                  <a class="d-flex py-1" href="{{ .URL | relURL }}" target="_blank" rel="noreferrer noopener">{{ .Pre | safeHTML }}<span class="ms-2">{{ .Name | safeHTML }}</span></a>
+                </li>
+              {{ end -}}
+            {{ end -}}
+          </ul>
+      </div>
+  </div>
+  </div>
+</footer>
+<!--
+<footer class="footer text-muted">
+  <div class="container-xxl">
+    <div class="row">
+      <div class="col-lg-8 order-last order-lg-first">
+        <ul class="list-inline">
+          <li class="list-inline-item">{{ .Site.Params.footer | safeHTML }}</li>
+        </ul>
+      </div>
+      <div class="col-lg-8 order-first order-lg-last text-lg-end">
+        <ul class="list-inline">
+          {{ range .Site.Menus.footer -}}
+            <li class="list-inline-item"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+          {{ end -}}
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+-->

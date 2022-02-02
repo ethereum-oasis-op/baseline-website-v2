@@ -1,0 +1,309 @@
+.docs-content > h2[id]::before,
+.docs-content > h3[id]::before,
+.docs-content > h4[id]::before {
+  display: block;
+  height: 6rem;
+  margin-top: -6rem;
+  content: "";
+}
+
+.anchor {
+  visibility: hidden;
+  padding-left: 0.5rem;
+}
+
+h2,
+h3 {
+  .badge {
+    font-size: 0.7rem !important;
+    margin-left: 0 !important;
+  }
+
+  @include media-breakpoint-up(md) {
+    .badge {
+      font-size: 0.8rem !important;
+      margin-left: .3rem !important;
+    }
+  }
+}
+
+article {
+  h1 {
+    color: $primary;
+    margin-top: 0.5rem;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 2rem;
+    }
+  }
+
+  h2 {
+    margin-top: 0.5rem;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 2rem;
+    }
+  }
+
+  table {
+    margin: 0 0 2rem;
+    width: auto;
+  }
+
+  a:not(.stretched-link):not(.btn) {
+    font-weight: 600;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .lead {
+    @include font-size(1.5rem);
+  }
+}
+
+h1:hover a,
+h2:hover a,
+h3:hover a,
+h4:hover a {
+  visibility: visible;
+  text-decoration: none;
+}
+
+.card-list {
+  margin-top: 2.25rem;
+}
+
+.edit-page {
+  margin-top: 3rem;
+  font-size: $font-size-base;
+}
+
+.edit-page svg {
+  margin-right: 0.5rem;
+  margin-bottom: 0.25rem;
+}
+
+p.meta {
+  margin-top: 0.5rem;
+  font-size: $font-size-base;
+}
+
+.breadcrumb {
+  margin-top: 2.25rem;
+  font-size: $font-size-base;
+}
+
+.page-link:hover {
+  text-decoration: none;
+}
+
+.card-body.flex-fill {
+  &.border-primary {
+    border-color: $orange-lightest !important;
+  }
+
+  .card-img {
+    min-height: 220px;
+  }
+
+  .btn {
+    max-width: 235px;
+    min-width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.page-custom {
+  max-width: 100% !important;
+  padding-left: 0;
+  padding-right: 0;
+
+  .lead {
+    @include font-size(1.5rem);
+  }
+
+  > .content {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    @include media-breakpoint-up(md) {
+      padding-bottom: 3rem;
+    }
+  }
+
+  .page-header {
+    max-height: 10vw;
+    min-height: 100px;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 1px solid $gray-200;
+
+     @include media-breakpoint-up(md) {
+      min-height: 120px;
+     }
+
+     @include media-breakpoint-up(lg) {
+      min-height: 150px;
+     }
+
+     @include media-breakpoint-up(xxl) {
+      min-height: 170px;
+     }
+
+    &::after {
+      position: absolute;
+      bottom: 0;
+      content: '';
+      left: 0;
+      right: 0;
+      top: 0;
+      background: rgba($gray-400,0.8);
+      z-index: 2;
+    }
+
+    .page-title {
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      z-index: 3;
+      transform: translateY(-50%);
+
+      h1 {
+        @include font-size(3.3rem);
+        margin-top: 0;
+        margin-bottom: 0;
+        //color: $white;
+        // color: $primary;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+      z-index: 1;
+      position: relative;
+
+      @include media-breakpoint-up(sm) {
+        height: auto;
+      }
+    }
+  }
+}
+
+.page-default {
+  max-width: 100%;
+}
+
+.benefits {
+  @include list-unstyled;
+
+  > li {
+    background: $gray-200;
+    padding: 1rem 1rem 1rem 3rem;
+    position: relative;
+    // font-weight: bold;
+
+    &::before {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      position: absolute;
+      left: 1rem;
+      top: 17px;
+      content: '';
+      vertical-align: middle;
+      background-image: url("data:image/svg+xml,%3Csvg class='me-2' height='20' viewBox='0 0 248 248' width='20' fill='%23198754' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform='translate(.791308 .639837)'%3E%3Cpath d='m243.098692 25.8601633c-4.3672-4.3438-11.422-4.3438-15.789 0l-104.11 104.0499997-36.9019996-36.8479997c-4.4453-3.8047-11.07-3.5469-15.207.58984s-4.3906 10.7579997-.58594 15.2029997l44.8009996 44.801c4.3672 4.3398 11.422 4.3398 15.789 0l112-111.9999997c4.3438-4.3711 4.3438-11.426 0-15.793z'/%3E%3Cpath d='m243.938692 98.6601633c-1.2344-6.0625-7.1523-9.9727-13.215-8.7383-6.0625 1.2383-9.9727 7.1562-8.7344 13.2189997 6.1992 30.273-1.832 61.719-21.789 85.316-19.957 23.594-49.633 36.73-80.516 35.641-30.8869996-1.0898-59.5619996-16.285-77.8089996-41.227-18.242-24.945-24.035-56.879-15.719-86.6409997 8.3203-29.766 29.832-54.066 58.363-65.938 28.5309996-11.867 60.9339996-9.9961 87.9059996 5.0859 5.3984 3.0938 12.281 1.2266 15.375-4.1719 3.0898-5.3984 1.2227-12.277-4.1719-15.371-31.66-17.81599997-69.57-20.75399997-103.5999996-8.02339997-34.023 12.72999997-60.695 39.82799997-72.887 74.05099997-12.188 34.2229997-8.6523 72.0819997 9.6641 103.4599997 18.32 31.371 49.551 53.062 85.3439996 59.27 35.793 6.208 72.504-3.7031 100.32-27.074 27.812-23.375 43.887-57.832 43.934-94.16-.003907-8.293-.82812-16.566-2.4648-24.6949997z'/%3E%3C/g%3E%3C/svg%3E ");
+    }
+
+    &:nth-child(odd) {
+      background: $gray-100;
+    }
+  }
+
+  .col {
+    background: $gray-200;
+
+    &:nth-child(odd) {
+      background: $gray-100;
+    }
+
+    ul {
+      @include list-unstyled;
+
+      li {
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+}
+
+.page-custom,
+.page-cards {
+  //h4 {
+  //  font-weight: 500;
+  //  margin-top: 0.25rem;
+  //  transition: $transition-base;
+  //}
+
+  .card-xxl {
+    padding: 0.5rem;
+
+    h2 {
+      // color: $primary;
+      margin-top: 0;
+
+      .badge {
+        font-size: 0.8rem !important;
+      }
+    }
+
+    h3 {
+      margin-bottom: 0;
+      margin-top: 0;
+      @include font-size(1.3rem);
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .card-body {
+    > a:not(.btn),
+    ul a {
+      color: unset;
+      text-decoration: unset;
+      font-weight: unset;
+      display: block;
+
+      &:hover {
+        h4 {
+          color: $link-color;
+        }
+      }
+
+      svg {
+        width: 32px;
+        height: 32px;
+        display: flex;
+      }
+    }
+  }
+}
+
+.section {
+  @include media-breakpoint-up(lg) {
+    .table {
+      max-width: 75%;
+    }
+  }
+}

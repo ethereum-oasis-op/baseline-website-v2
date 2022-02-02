@@ -1,0 +1,35 @@
+.sponsors {
+  display: flex;
+  padding: 0;
+
+  img {
+    object-fit: contain;
+  }
+
+  &:not(.glide__slides) {
+    flex-flow: wrap;
+
+    li {
+      margin-bottom: 2rem;
+      margin-right: 1rem;
+    }
+  }
+
+  &.glide__slides {
+    li + li {
+      margin-left: 2rem;
+    }
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+  }
+}
+
+
+@include media-breakpoint-up(md) {
+  .sponsors li:not(.glide__slides) {
+    margin-right: 2rem;
+  }
+}
