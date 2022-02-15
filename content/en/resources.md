@@ -35,7 +35,7 @@ url: "/resources/"
                   <h3 class="h4">Understand the basics</h3>
                   <p>Architecture, high level examples, and the value.</p>
                 </a>
-                <a href="https://docs.baseline-protocol.org/community/open-source-community" class="mb-4">
+                <a href="https://drive.google.com/file/d/1-nDtsbcCY9aY8UVj38-ekAC7Mqr6d_7y/view?usp=sharing" class="mb-4">
                   <h3 class="h4">Meet the community members</h3>
                   <p>Community organizers, technical steering committee, core devs, and others.</p>
                 </a>
