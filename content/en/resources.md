@@ -16,8 +16,10 @@ url: "/resources/"
         <div class="alert alert-info">
           <p class="mb-0"><strong>Please Note:</strong> Our Docs & GitHub are going under a restructure, come back soon to new and improved content.</p>
         </div>
-        <h3 class="h4 mb-1">Community Member Starter Kit <span class="badge fs-6 bg-primary align-top ms-3">Coming soon!</span></h3>
-        <p>Understand how you can contribute as a community member and how the open source community operates</p>
+        <a class="download-link" href="https://drive.google.com/file/d/1H98umseMBL7Fq8znLbHCs76agHPS2n5e/view?usp=sharing" target="_blank" rel="noreferrer noopener">
+          <h3 class="h4 mb-1">Community Member Starter Kit</h3>
+          <p>Understand how you can contribute as a community member and how the open source community operates</p>
+        </a>
         <h3 class="h4 mb-1">Enablement Master Deck <span class="badge fs-6 bg-primary align-top ms-3">Coming soon!</span></h3>
         <p>Share how Baseline can directly impact use cases with your peers</p>
         <h3 class="h4 mb-1">Baseline Core Dev Onboarding Kit <span class="badge fs-6 bg-primary align-top ms-3">Coming soon!</span></h3>
