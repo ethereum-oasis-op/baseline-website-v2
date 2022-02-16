@@ -52,7 +52,7 @@ The PBG serves as a cross-section of the community, organized by OASIS.
 
 Representing nonprofit organizations, multinational companies, leading startups, and the stakeholder community at-large, the PGB is accountable for ensuring the balance and integrity of the Baseline Protocol.
 
-[Click here to see the complete list of our PGB members](https://docs.baseline-protocol.org/governance/project-governance-board)
+[Click here to see the complete list of our PGB members](https://github.com/eea-oasis/managed-open-project/blob/main/PROJECT-GOVERNING-BOARD.md)
 
 <h3>Technical Steering Committee (TSC)</h2>
 
