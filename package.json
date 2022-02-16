@@ -1,7 +1,7 @@
 {
   "name": "baseline-protocol-website-v2",
   "description": "Baseline Protocol website v2",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "browserslist": [
     "defaults"
   ],
