@@ -36,6 +36,17 @@ $navbar-dark-active-color:          $link-color-dark;
   background-image: url(/images/home-bg-white-lines.png);
 }
 
+[data-dark-mode] .download-link {
+  h3, p {
+    color: $body-color-dark;
+  }
+
+  h3::after {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAQAAAD97QrkAAAAmElEQVR42u3QMRLCIBBAUSh1cgiHXFV7SvUWOUM8CR7kW2THgGZYAmPj8GloeLuDMZnwLHlTWyc60YmfEFguuG2CkTNWB+5AWJCUYOQJXLMIlps8CriUEAAF4cgDVmQlcG8AZg65PYYEmeQ2ESJg0H4jRr7TAQUpAzJIOSDI3ARsIPuBD6QOiJB6QBDfBJTOObUeQ3N/Q7wAo5PIGTvdt8QAAAAASUVORK5CYII=');
+    background-size: 18px 18px;
+  }
+}
+
 [data-dark-mode] .btn-outline-primary {
   background-color: $body-bg-dark;
 }
