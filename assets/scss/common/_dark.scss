@@ -36,6 +36,18 @@ $navbar-dark-active-color:          $link-color-dark;
   background-image: url(/images/home-bg-white-lines.png);
 }
 
+[data-dark-mode] .benefits {
+  .col,
+  > li {
+   background: var(--bs-table-striped-bg);
+    color: var(--bs-table-striped-color);
+
+    &:nth-child(odd) {
+      background: $border-dark;
+    }
+  }
+}
+
 [data-dark-mode] .download-link {
   h3, p {
     color: $body-color-dark;
