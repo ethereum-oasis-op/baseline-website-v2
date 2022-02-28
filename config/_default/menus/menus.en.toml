@@ -17,7 +17,7 @@
 [[main]]
   name = "Get Involved"
   url = "/get-involved/"
-  weight = 40
+  weight = 15
 
 [[main]]
   name = "Blog"
