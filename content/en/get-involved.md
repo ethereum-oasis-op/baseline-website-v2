@@ -29,7 +29,7 @@ url: "/get-involved/"
             <img src="/images/icon-group.svg" alt="" width="100">
             <h3 class="h4 text-primary mt-3">Outreach Team</h3>
             <p>Outreach members communicate, advocate, and educate the world on the advantages of using and contributing to the protocol. Several working groups create enablement materials, devise industry-specific use cases, and document the significant work being done in the community.</p>
-            <p><strong>Recurring every other Monday @ 1:00-2:00pm EST & as needed basis depending on working group cadence </strong></p>
+            <p><strong>Recurring every other Monday @ 10:00-11:00am EST & as needed basis depending on working group cadence </strong></p>
           </div>
           <div class="col">
             <img src="/images/icon-document.svg" alt="" width="100">
