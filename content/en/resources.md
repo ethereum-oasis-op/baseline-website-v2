@@ -60,7 +60,7 @@ url: "/resources/"
                 </a>
                 <a href="https://github.com/eea-oasis/baseline-grants">
                   <h3 class="h4">Submit a Grant or Bounty Idea</h3>
-                  <p>Apply for a grant to recieve funds for your work, or submit a bounty idea or RFP for work that is needed.</p>
+                  <p>Apply for a grant to recieve funds for your work, or submit a bounty idea or RFP to propose funding for work that is needed.</p>
                 </a>
               </div>
             </div>
