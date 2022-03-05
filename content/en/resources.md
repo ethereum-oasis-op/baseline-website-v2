@@ -56,11 +56,11 @@ url: "/resources/"
                 </a>
                 <a href="https://github.com/eea-oasis/baseline-blips" class="mb-4">
                   <h3 class="h4">Add Baseline Improvement Proposals (BLIPs)</h3>
-                  <p>Suggest improvements and additions to Baseline for our roadmap.</p>
+                  <p>Suggest improvements and additions to Baseline for our community members to work on.</p>
                 </a>
-                <a href="https://github.com/eea-oasis/baseline-roadmap">
-                  <h3 class="h4">See the roadmap</h3>
-                  <p>Learn the direction and plan for Baseline outlined by the technical steering committee, core devs, sponsors, and other community members.</p>
+                <a href="https://github.com/eea-oasis/baseline-grants">
+                  <h3 class="h4">Submit a Grant or Bounty Idea</h3>
+                  <p>Apply for a grant to recieve funds for your work, or submit a bounty idea or RFP for work that is needed.</p>
                 </a>
               </div>
             </div>
