@@ -4,7 +4,7 @@
       <div class="page-title">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-md-16 col-lg-14 col-xl-12">
+            <div class="col-md-16{{ if not (.Params.headerImageLarge) }} col-lg-14 col-xl-12{{ end }}">
               <h1>{{ .Title }}</h1>
             </div>
           </div>

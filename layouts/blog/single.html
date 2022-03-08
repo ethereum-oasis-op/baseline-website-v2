@@ -5,6 +5,7 @@
       <div class="blog-header">
         <h1>{{ .Title }}</h1>
         {{ partial "main/blog-meta.html" . }}
+        {{ partial "main/blog-sharing.html" . }}
       </div>
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
       {{ .Content }}

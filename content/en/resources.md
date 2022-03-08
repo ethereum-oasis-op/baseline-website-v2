@@ -68,7 +68,7 @@ url: "/resources/"
         </div>
       </div>
       <div class="section pt-0">
-        <h2 class="mt-0">Read the standard</h2>
+        <h2 class="mt-0"><a href="https://github.com/eea-oasis/baseline-standard" target="_blank" rel="noreferrer noopener">Read the standard</a></h2>
         <p>Read the 3 Baseline specfications in development</p>
         <div class="row row-cols-lg-3">
           <div class="col d-flex">
@@ -95,7 +95,7 @@ url: "/resources/"
         </div>
       </div>
       <div class="section pt-0">
-        <h2 class="mt-0">Baseline Demos and Walkthroughs</h2>
+        <h2 class="mt-0"><a href="https://youtube.com/playlist?list=PLxmhMSa49Q1CuosKFPi443UhoodUukuZD" target="_blank" rel="noreferrer noopener">Baseline Demos and Walkthroughs</a></h2>
         <div class="ratio ratio-16x9">
           <iframe
             class="lazyload"

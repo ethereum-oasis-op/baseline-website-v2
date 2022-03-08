@@ -122,15 +122,15 @@
 </div>
 {{ end -}}
 
-{{ if eq .Section "blog" -}}
-<nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">
-  <div class="container-xxl d-flex align-items-md-center">
-    <nav class="nav">
-      {{ range .Site.Menus.secondary -}}
-        {{- $targetBlank := or (in .URL "https://") -}}
-        <a class="nav-link text-dark" href="{{ .URL | relURL }}" {{ if $targetBlank }} target="_blank" rel="noreferrer noopener"{{ end }}>{{ .Name | safeHTML }}</a>
-      {{ end -}}
-    </nav>
-  </div>
-</nav>
-{{ end -}}
+<!--{{ if eq .Section "blog" -}}-->
+<!--<nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">-->
+<!--  <div class="container-xxl d-flex align-items-md-center">-->
+<!--    <nav class="nav">-->
+<!--      {{ range .Site.Menus.secondary -}}-->
+<!--        {{- $targetBlank := or (in .URL "https://") -}}-->
+<!--        <a class="nav-link text-dark" href="{{ .URL | relURL }}" {{ if $targetBlank }} target="_blank" rel="noreferrer noopener"{{ end }}>{{ .Name | safeHTML }}</a>-->
+<!--      {{ end -}}-->
+<!--    </nav>-->
+<!--  </div>-->
+<!--</nav>-->
+<!--{{ end -}}-->
