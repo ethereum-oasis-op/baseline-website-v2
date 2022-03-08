@@ -30,7 +30,7 @@ url: "/resources/"
           <div class="col d-flex">
             <div class="card card-xxl flex-fill mb-4 mb-lg-0">
               <div class="card-body">
-                <h2 class="mt-0">Explore the docs</h2>
+                <h2 class="mt-0"><a href="https://docs.baseline-protocol.org/" target="_blank" rel="noreferrer noopener">Explore the docs</a></h2>
                 <a href="https://docs.baseline-protocol.org/" class="mb-4">
                   <h3 class="h4">Understand the basics</h3>
                   <p>Architecture, high level examples, and the value.</p>
@@ -49,7 +49,7 @@ url: "/resources/"
           <div class="col d-flex">
             <div class="card card-xxl flex-fill">
               <div class="card-body">
-                <h2 class="mt-0">View the repo</h2>
+                <h2 class="mt-0"><a href="https://github.com/orgs/eea-oasis/repositories" target="_blank" rel="noreferrer noopener">View the repo</a></h2>
                 <a href="https://github.com/orgs/eea-oasis/repositories" class="mb-4">
                   <h3 class="h4">Look through the code</h3>
                   <p>View the core and baseline reference implementation packages.</p>

@@ -13,7 +13,6 @@ url: "/get-baselined/"
       <h2>Ready to start Baselining? <span class="badge bg-primary align-top">COMING SOON!</span></h2>
       <p>A group of companies interested in 'baselining' can either deploy their own implementation using their in-house resources or they can choose to work with third-party partners (product and service providers).</p>
       <p>Get in touch with one of our sponsors for Baseline platforms, tools, solutions, and developer education.</p>
-      <p>Contact information to get in touch with Baseline sponsors will be coming in early 2022.</p>
     </div>
     <div class="col-md-7 text-end">
       <img src="/images/company.svg" alt="" class="d-none d-md-inline-block img-fluid lazyload">
