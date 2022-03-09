@@ -359,15 +359,26 @@ p.meta {
   }
 }
 
+.resp-sharing-container {
+  margin-top: -1rem;
+  vertical-align: middle;
+}
+
+.resp-sharing-label {
+  display: block;
+  font-size: 0.875em;
+  vertical-align: middle;
+  padding-bottom: 0.5rem;
+
+  @include media-breakpoint-up(md) {
+    display: inline-flex;
+  }
+}
+
 .resp-sharing {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-top: -1rem;
-
-  .label {
-    font-size: 0.875em;
-  }
 }
 
 .resp-sharing-button__link,
