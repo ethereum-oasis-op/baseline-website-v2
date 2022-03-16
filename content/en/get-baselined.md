@@ -72,7 +72,6 @@ url: "/get-baselined/"
 </div>
 </div>
 <div class="section pt-0">
-<h2 class="mt-0">In the meantime</h2>
 <div class="row row-cols-1 row-cols-lg-3 mt-4">
   <div class="col d-flex">
     <div class="card bg-white border-primary mt-0 card-body flex-fill py-4 mb-4">
