@@ -40,6 +40,21 @@ url: "/get-baselined/"
   </div>
   <div class="col d-flex">
     <div class="card bg-white border-primary mt-0 card-body flex-fill py-4 mb-4">
+      <h2 class="h3 mt-0 sr-only">Unibright</h2>
+      <img src="/images/sponsors/logo-unibright.png" alt="" width="100" class="mb-4" loading="lazy">
+      <p>Unibright is a team of blockchain specialists, architects, developers and consultants with 20+ years of experience in business processes and integration. Unibright offers Low-Code-Integration Tools with the Unibright Framework and the Universal Business Token UBT. Unibright is engaged in the Baseline Protocol, offers Baseledger as a solution to orchestrate and trust-enhance B2B processes and offers ERP-Blockchain-integration with Partners like Concircle.</p>
+      <ul class="checkmarks">
+        <li>Platforms/Tools</li>
+        <li>Solutions</li>
+        <li>Developer Education</li>
+      </ul>
+      <p class="mb-0">
+        <strong>Contact:</strong> <a href="mailto:contact@baseledger.net">contact@baseledger.net</a>
+      </p>
+    </div>
+  </div>
+  <div class="col d-flex">
+    <div class="card bg-white border-primary mt-0 card-body flex-fill py-4 mb-4">
       <h2 class="h3 mt-0 sr-only">Montech</h2>
       <img src="/images/sponsors/logo-montech-white.png" alt="" width="200" class="logo-dark mb-4" loading="lazy">
       <img src="/images/sponsors/logo-montech.png" alt="" width="200" class="logo-light mb-4" loading="lazy">
