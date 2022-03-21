@@ -24,6 +24,11 @@
   url = "/blog/"
   weight = 50
 
+[[main]]
+  name = "AmsterBased"
+  url = "/amsterbased/"
+  weight = 99
+
 [[secondary]]
   name = "All Baseline Shows"
   url = "https://www.youtube.com/c/BaselineProtocol/videos"
