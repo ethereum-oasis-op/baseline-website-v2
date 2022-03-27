@@ -91,7 +91,7 @@ url: "/get-baselined/"
   <div class="col d-flex">
     <div class="card bg-white border-primary mt-0 card-body flex-fill py-4 mb-4">
       <h2 class="h3 mt-0">Get in Touch</h2>
-      <p>Join the Slack and get in touch with community leaders to learn more.</p>
+      <p>Join the Slack to meet the community leaders or message in the #4-inquiries channel.</p>
       <a href="https://join.slack.com/t/ethereum-baseline/shared_invite/zt-d6emqeci-bjzBsXBqK4D7tBTZ40AEfQ" class="btn btn-lg btn-primary mt-auto">Join us!</a>
     </div>
   </div>
