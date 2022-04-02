@@ -16,7 +16,7 @@ url: "/resources/"
         <div class="alert alert-info">
           <p class="mb-0"><strong>Please Note:</strong> Our Docs & GitHub are going under a restructure, come back soon to new and improved content.</p>
         </div>
-        <a class="download-link" href="https://drive.google.com/file/d/1-nDtsbcCY9aY8UVj38-ekAC7Mqr6d_7y/view?usp=sharing" target="_blank" rel="noreferrer noopener">
+        <a class="download-link" href="https://drive.google.com/file/d/1zWwUpV7FR1dHz9ihaIW14MgNG_M900xj/view?usp=sharing" target="_blank" rel="noreferrer noopener">
           <h3 class="h4 mb-1">Community Member Starter Kit</h3>
           <p>Understand how you can contribute as a community member and how the open source community operates</p>
         </a>
