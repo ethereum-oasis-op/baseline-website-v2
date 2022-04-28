@@ -26,4 +26,5 @@ Full details can be found at [baseline-protocol.org](https://www.baseline-protoc
 ---
 
 Written by Mark Rymsza - Baseline Protocol Core Developer & Outreach Team Member
+
 Product Developer @ Consensys Mesh
