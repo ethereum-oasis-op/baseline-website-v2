@@ -7,8 +7,6 @@ containerClass: "page-custom"
 images: []
 ---
 
-<p class="lead">Stay up to date on the exciting work being done in the community!</p>
-
 <div class="row row-cols-1 row-cols-lg-2">
   <div class="col d-flex">
     <div class="card card-body flex-fill mb-0">

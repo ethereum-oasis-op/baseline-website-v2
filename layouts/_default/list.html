@@ -4,7 +4,8 @@
     <div class="col-16">
       <article>
         <h1>Blog</h1>
-        <p class="lead">Filtered by: <strong>{{ .Title }}</strong></p>
+        <p class="lead">Stay up to date on the exciting work being done in the community!</p>
+        {{ partial "main/blog-filter.html" . }}
         {{ .Content }}
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 card-list">
           {{ $paginator := .Paginate (.Data.Pages) -}}

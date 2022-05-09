@@ -3,7 +3,7 @@ date: 2022-02-16
 slug: "battleship-baseline"
 description: "‘Battleship Baseline’ is an implementation of the classic search & destroy strategy guessing game, using the design pattern specified in the Baseline Protocol standard."
 title: "Battleship Baseline"
-# categories: ["cat1", "cat2"]
+categories: ["Development", "Community"]
 ---
 
 ## Demo
