@@ -3,7 +3,7 @@ date: 2022-04-28
 slug: "eip-study"
 description: "April 5th, 2022 – Unibright presents the study commissioned by the European Investment Fund (EIF), on how the usage of the Baseline Protocol could improve the EIF’s design of an EU-wide Intermediated Financing Platform (IFP)."
 title: "European Investment Fund Investigating Use of Baseline Protocol for Digital Transformation"
-categories: ["Development"]
+# categories: ["Development"]
 ---
 
 April 5th, 2022 – Unibright presents the study commissioned by the European Investment Fund (EIF), on how the usage of the Baseline Protocol could improve the EIF’s design of an EU-wide Intermediated Financing Platform (IFP).
