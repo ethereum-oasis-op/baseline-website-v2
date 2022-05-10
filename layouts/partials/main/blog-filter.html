@@ -1,0 +1,10 @@
+{{ if .Site.Taxonomies.categories -}}
+<p class="mb-2 fw-bold">Category filter:</p>
+<div class="btn-group" role="group" aria-label="Blog category filter">
+  {{ $currentPage := . -}}
+  {{ range .Site.Taxonomies.categories }}
+    {{ $active := (eq $currentPage.Title .Page.Title) }}
+    <a href="{{ .Page.Permalink }}" class="btn btn-outline-dark rounded-0 px-3{{ if $active }} active{{ end }}">{{ .Page.Title }} <span class="badge bg-primary ms-2"><span class="text-white">{{ .Count }}</span></span></a>
+  {{ end }}
+</div>
+{{ end }}
