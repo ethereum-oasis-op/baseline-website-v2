@@ -67,10 +67,7 @@ The TSC is accountable to the PGB for core developer management, code repository
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td><a href="https://www.linkedin.com/in/ryanfisch/" target="_blank" rel="noreferrer noopener">Ryan Fisch</a></td>
-      <td>End-Labs</td>
-    </tr>
+
     <tr>
       <td><a href="https://www.linkedin.com/in/afconsultant/" target="_blank" rel="noreferrer noopener">Dr. Andreas Freund</a></td>
       <td>ZK & L2 Leader, EEA L2 WG Chair</td>
@@ -78,6 +75,10 @@ The TSC is accountable to the PGB for core developer management, code repository
     <tr>
       <td><a href="https://www.linkedin.com/in/afconsultant/" target="_blank" rel="noreferrer noopener">Samrat Kishor</a> -- Co-Chair</td>
       <td>Golden Next Ventures</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.linkedin.com/in/sonalpatel13/" target="_blank" rel="noreferrer noopener">Sonal Patel</a></td>
+      <td>Unibright</td>
     </tr>
     <tr>
       <td><a href="https://www.linkedin.com/in/stefschmidt/" target="_blank" rel="noreferrer noopener">Stefan Schmidt</a></td>
@@ -107,10 +108,7 @@ The TSC is accountable to the PGB for core developer management, code repository
       <td><a href="https://www.linkedin.com/in/jackwiering1977/" target="_blank" rel="noreferrer noopener">Jack Wiering</a></td>
       <td>Unibright</td>
     </tr>
-    <tr>
-      <td><a href="https://www.linkedin.com/in/johnwolpert/" target="_blank" rel="noreferrer noopener">John Wolpert</a> -- Co-Chair</td>
-      <td>ConsenSys Mesh</td>
-    </tr>
+
   </tbody>
 </table>
 </div>
