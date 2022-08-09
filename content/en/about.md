@@ -78,7 +78,6 @@ The TSC is accountable to the PGB for core developer management, code repository
     </tr>
     <tr>
       <td><a href="https://www.linkedin.com/in/sonalpatel13/" target="_blank" rel="noreferrer noopener">Sonal Patel</a></td>
-      <td>Unibright</td>
     </tr>
     <tr>
       <td><a href="https://www.linkedin.com/in/stefschmidt/" target="_blank" rel="noreferrer noopener">Stefan Schmidt</a></td>
