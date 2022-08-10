@@ -58,57 +58,57 @@ Representing nonprofit organizations, multinational companies, leading startups,
 
 The TSC is accountable to the PGB for core developer management, code repository integrity, and defining the roadmap for Baseline.
 
-<div class="table-responsive">
-<table class="table table-bordered">
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Company</th>
-    </tr>
-  </thead>
-  <tbody>
+  
 
-    <tr>
-      <td><a href="https://www.linkedin.com/in/afconsultant/" target="_blank" rel="noreferrer noopener">Dr. Andreas Freund</a></td>
-      <td>ZK & L2 Leader, EEA L2 WG Chair</td>
-    </tr>
-    <tr>
-      <td><a href="https://www.linkedin.com/in/afconsultant/" target="_blank" rel="noreferrer noopener">Samrat Kishor</a> -- Co-Chair</td>
-      <td>Golden Next Ventures</td>
-    </tr>
-    <tr>
-      <td><a href="https://www.linkedin.com/in/sonalpatel13/" target="_blank" rel="noreferrer noopener">Sonal Patel</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://www.linkedin.com/in/stefschmidt/" target="_blank" rel="noreferrer noopener">Stefan Schmidt</a></td>
-      <td>Unibright</td>
-    </tr>
-    <tr>
-      <td><a href="https://www.linkedin.com/in/mehran-shakeri-8833b347/" target="_blank" rel="noreferrer noopener">Mehran Shakeri</a></td>
-      <td>SAP</td>
-    </tr>
-    <tr>
-      <td><a href="https://www.linkedin.com/in/luizhamiltonsoares/" target="_blank" rel="noreferrer noopener">Luiz Soares</a></td>
-      <td>WhitePrompt</td>
-    </tr>
-    <tr>
-      <td><a href="https://www.linkedin.com/in/kartheek-solipuram-62970a8/" target="_blank" rel="noreferrer noopener">Kartheek Solipuram</a></td>
-      <td>EY</td>
-    </tr>
-    <tr>
-      <td><a href="https://www.linkedin.com/in/caleteeter/" target="_blank" rel="noreferrer noopener">Cale Teeter</a></td>
-      <td>Microsoft</td>
-    </tr>
-    <tr>
-      <td><a href="https://www.linkedin.com/in/kylebthomas/" target="_blank" rel="noreferrer noopener">Kyle Thomas</a></td>
-      <td>Provide</td>
-    </tr>
-    <tr>
-      <td><a href="https://www.linkedin.com/in/jackwiering1977/" target="_blank" rel="noreferrer noopener">Jack Wiering</a></td>
-      <td>Unibright</td>
-    </tr>
+<div  class="table-responsive">
 
-  </tbody>
+<table  class="table table-bordered">
+<thead>
+<tr><th>Name</th>
+<th>Company</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><a  href="https://www.linkedin.com/in/afconsultant/"  target="_blank"  rel="noreferrer noopener">Dr. Andreas Freund</a></td>
+<td>ZK & L2 Leader, EEA L2 WG Chair</td>
+</tr>
+<tr>
+<td><a  href="https://www.linkedin.com/in/afconsultant/"  target="_blank"  rel="noreferrer noopener">Samrat Kishor</a> -- Co-Chair</td>
+<td>Golden Next Ventures</td>
+</tr>
+<tr>
+<td><a  href="https://www.linkedin.com/in/sonalpatel13/"  target="_blank"  rel="noreferrer noopener">Sonal Patel</a></td>
+<td>ConsenSys Mesh</td>
+</tr>
+<tr>
+<td><a  href="https://www.linkedin.com/in/stefschmidt/"  target="_blank"  rel="noreferrer noopener">Stefan Schmidt</a></td>
+<td>Unibright</td>
+</tr>
+<tr>
+<td><a  href="https://www.linkedin.com/in/mehran-shakeri-8833b347/"  target="_blank"  rel="noreferrer noopener">Mehran Shakeri</a></td>
+<td>SAP</td>
+</tr>
+<tr>
+<td><a  href="https://www.linkedin.com/in/luizhamiltonsoares/"  target="_blank"  rel="noreferrer noopener">Luiz Soares</a></td>
+<td>WhitePrompt</td>
+</tr>
+<tr>
+<td><a  href="https://www.linkedin.com/in/kartheek-solipuram-62970a8/"  target="_blank"  rel="noreferrer noopener">Kartheek Solipuram<a></td>
+<td>EY</td>
+</tr>
+<tr>
+<td><a  href="https://www.linkedin.com/in/caleteeter/"  target="_blank"  rel="noreferrer noopener">Cale Teeter</a></td>
+<td>Microsoft</td>
+</tr>
+<tr>
+<td><a  href="https://www.linkedin.com/in/kylebthomas/"  target="_blank"  rel="noreferrer noopener">Kyle Thomas</a></td>
+<td>Provide</td>
+</tr>
+<tr>
+<td><a  href="https://www.linkedin.com/in/jackwiering1977/"  target="_blank"  rel="noreferrer noopener">Jack Wiering</a></td>
+<td>Unibright</td>
+</tr>
+</tbody>
 </table>
 </div>
 </div>
