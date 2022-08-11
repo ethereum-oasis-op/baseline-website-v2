@@ -20,8 +20,11 @@ url: "/resources/"
           <h3 class="h4 mb-1">Community Member Starter Kit</h3>
           <p>Understand how you can contribute as a community member and how the open source community operates</p>
         </a>
-        <h3 class="h4 mb-1">Enablement Master Deck <span class="badge fs-6 bg-primary align-top ms-3">Coming soon!</span></h3>
-        <p>Share how Baseline can directly impact use cases with your peers</p>
+        <a class="download-link" href="https://docs.google.com/presentation/d/18WA9w0eZGrr5YQI2jctcf1UMVtLUG2j4Efin93XLH_U/edit?usp=sharing" target="_blank" rel="noreferrer noopener">
+          <h3 class="h4 mb-1">Master Enablement Deck</h3>
+          <p>Tailor this deck to suit your needs when introducing the Baseline Protocol to varioius business, technical, and other personas.
+</p>
+        </a>
         <h3 class="h4 mb-1">Baseline Core Dev Onboarding Kit <span class="badge fs-6 bg-primary align-top ms-3">Coming soon!</span></h3>
         <p class="mb-0">Your one stop shop to learning how to use and develop further implementations to the Baseline Protocol</p>
       </div>
