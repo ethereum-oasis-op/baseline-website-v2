@@ -26,7 +26,7 @@ url: "/get-involved/"
             <img src="/images/icon-rocket.svg" alt="" width="100" class="logo-light" loading="lazy">
             <h3 class="h4 text-primary mt-3">Baseline Core Devs</h3>
             <p>Core Devs are the backbone of the Baseline open source community and have an active role in advancing the Baseline Protocol and/or related projects. Join the next generation of top blockchain developers leading the rise of ubiquitous sync services to state machines everywhere!</p>
-            <p><strong>Recurring every other Monday @ 11:00-12:00pm EST & as needed basis depending on working group cadence</strong></p>
+            <p><strong>Recurring every other Monday @ 10:00-11:00am EST & as needed basis depending on working group cadence</strong></p>
           </div>
           <div class="col">
             <img src="/images/icon-group-white.png" alt="" width="100" class="logo-dark" loading="lazy">

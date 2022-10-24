@@ -27,7 +27,7 @@ url: "/get-baselined/"
       <h2 class="h3 mt-0 sr-only">ConsenSys Mesh</h2>
       <img src="/images/sponsors/logo-consensys-mesh-white.webp" alt="" width="200" class="logo-dark mb-4" loading="lazy">
       <img src="/images/sponsors/logo-consensys-mesh.png" alt="" width="200" class="logo-light mb-4" loading="lazy">
-      <p>We offer rapid prototyping of baselined use cases for implementation, a zero knowledge circuit service with gnark, and support to companies interested in offering baseline services. Please reach out to discuss further.</p>
+      <p> Our Baseline Research & Development team offers help with rapid prototyping and architecture development of baseline use cases, zero knowledge circuit development, and support to companies interested in offering baseline related services. Please reach out to discuss further.</p>
       <ul class="checkmarks">
         <li>Platforms/Tools</li>
         <li>Solutions</li>
