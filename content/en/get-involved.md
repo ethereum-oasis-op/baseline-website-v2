@@ -39,8 +39,8 @@ url: "/get-involved/"
             <img src="/images/icon-document-white.png" alt="" width="100" class="logo-dark" loading="lazy">
             <img src="/images/icon-document.svg" alt="" width="100" class="logo-light" loading="lazy">
             <h3 class="h4 text-primary mt-3">Standards Team</h3>
-            <p>Members of the standards team work to define and contribute to the specifications of baseline compliance. The Standards is currently in the ratification process to become an official <a href="https://www.oasis-open.org/">Oasis Standard</a>.</p>
-            <p><strong>Recurring every other Thursday @ 10:00-11:00am EST</strong></p>
+            <p>Members of the standards team work to define and contribute to the specifications of baseline compliance. The standard is currently in the ratification process to become an official <a href="https://www.oasis-open.org/">Oasis Standard</a>.</p>
+            <p><strong>Teammates are currently connecting async and covering standards topics on the weekly Baseline Shows</strong></p>
           </div>
         </div>
       </div>
