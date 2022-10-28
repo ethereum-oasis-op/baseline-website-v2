@@ -14,9 +14,8 @@ url: "/get-involved/"
     <div class="col-md-16">
       <div class="section">
         <p class="lead">We encourage everyone interested in accelerating or learning more about the Baseline Protocol to join our open source teams!</p>
-        <a> A new way to sign up and get involved is coming soon!</a>
-        <!-- <a href="https://www.signupgenius.com/org/baseline#/" class="btn btn-lg btn-primary" target="_blank" rel="noreferrer noopener"> -->
-          <!-- Sign up via <img src="/images/logo-signupgenius-color.svg" width="120" alt="" class="ms-2"> -->
+        <a href="https://docs.google.com/forms/d/1CDxCi39jqcV0H2q_9Z9CKeqFOGx0hjkJ0hx04IuHGTM" class="btn btn-lg btn-primary" target="_blank" rel="noreferrer noopener">
+          Sign up via Google Forms and get involved!
         </a>
       </div>
       <div class="section pt-0">
