@@ -34,37 +34,37 @@
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "devDependencies": {
-    "@babel/cli": "^7.15",
-    "@babel/core": "^7.15",
-    "@babel/preset-env": "^7.15",
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
     "@fullhuman/postcss-purgecss": "^4.0",
-    "auto-changelog": "^2.3.0",
-    "autoprefixer": "^10.3",
-    "bootstrap": "^5.1",
-    "clipboard": "^2.0",
-    "eslint": "^8.0",
+    "auto-changelog": "^2.4.0",
+    "autoprefixer": "^10.4.13",
+    "bootstrap": "^5.2.2",
+    "clipboard": "^2.0.11",
+    "eslint": "^8.27.0",
     "exec-bin": "^1.0.0",
     "flexsearch": "^0.7.21",
-    "highlight.js": "^11.2",
+    "highlight.js": "^11.6.0",
     "hugo-installer": "^3.1",
-    "instant.page": "^5.1",
+    "instant.page": "^5.1.1",
     "katex": "^0.13",
     "lazysizes": "^5.3",
-    "markdownlint-cli": "^0.29",
-    "mermaid": "^8.13",
-    "node-fetch": "^3.0",
-    "postcss": "^8.3",
+    "markdownlint-cli": "^0.32.2",
+    "mermaid": "^9.2.2",
+    "node-fetch": "^3.3.0",
+    "postcss": "^8.4.19",
     "postcss-cli": "^9.0",
-    "prettier": "^2.5.1",
+    "prettier": "^2.7.1",
     "purgecss-whitelister": "^2.4",
     "shx": "^0.3.3",
     "stylelint": "^13.13",
     "stylelint-config-standard": "^22.0"
   },
   "otherDependencies": {
-    "hugo": "0.88.1"
+    "hugo": "0.101.0"
   },
   "dependencies": {
-    "@glidejs/glide": "^3.5.2"
+    "@glidejs/glide": "^3.6.0"
   }
 }
