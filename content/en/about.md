@@ -59,3 +59,7 @@ Representing nonprofit organizations, multinational companies, leading startups,
 The TSC is accountable to the PGB for core developer management, code repository integrity, and defining the roadmap for Baseline.
 
 [Click here to see the complete list of TSC members](https://github.com/eea-oasis/baseline/blob/main/TECHNICAL-STEERING-COMMITTEE.md).
+</div>
+</div>
+</div>
+</div>
