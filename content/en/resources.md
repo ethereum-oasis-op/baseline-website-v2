@@ -43,7 +43,7 @@ url: "/resources/"
         <div class="card bg-white border-primary flex-fill flex-column card-body mb-4">
           <a class="download-link" href="https://drive.google.com/file/d/1zWwUpV7FR1dHz9ihaIW14MgNG_M900xj/view?usp=sharing" target="_blank" rel="noreferrer noopener">
             <h3 class="h4 mb-1 mt-0">Community Member Starter Kit</h3>
-            <p class="mb-0">Understand how you can contribute as a community member and how the open source community operates</p>
+            <p class="mb-0">Understand how you can contribute as a community member and how the open source community operates.</p>
           </a>
         </div>
         <div class="card bg-white border-primary flex-fill flex-column card-body mb-4">
