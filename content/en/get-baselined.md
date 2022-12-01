@@ -99,7 +99,7 @@ url: "/get-baselined/"
     <div class="card bg-white border-primary mt-0 card-body flex-fill py-4 mb-4">
       <h2 class="h3 mt-0">Become a sponsor</h2>
       <p>Interested in being added to the list of service providers above? Become a Baseline Sponsor.</p>
-      <a href="/become-a-sponsor/" class="btn btn-lg btn-primary mt-auto">Become a sponsor</a>
+      <a href="/become-a-sponsor/" class="btn btn-lg btn-primary mt-auto">Become a Sponsor</a>
     </div>
   </div>
   <div class="col d-flex">
