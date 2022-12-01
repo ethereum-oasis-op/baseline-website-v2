@@ -4,6 +4,7 @@ description: "We encourage everyone interested in accelerating or learning more 
 lead: ""
 headerImage: "/images/headers/company.webp"
 headerImageLarge: true
+includeResources: true
 layout: custom
 containerClass: "page-custom"
 url: "/get-involved/"

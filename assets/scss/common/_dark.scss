@@ -67,7 +67,7 @@ $navbar-dark-active-color:          $link-color-dark;
   background-color: $body-bg-dark !important;
 }
 
-[data-dark-mode] body a {
+[data-dark-mode] body a:not(.btn) {
   color: $link-color-dark;
 }
 

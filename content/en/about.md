@@ -34,7 +34,7 @@ Zero Knowledge circuits employ a common frame of reference that allows all parti
   <img src="/images/sponsors/logo-microsoft.svg" alt="Microsoft logo" width="100" class="lazyload blur-up">
 </a>
 </div>
-<div class="section pt-0">
+<div class="section py-0">
 <h2 class="mt-0">Open Source Community Operations</h2>
 Several organizations and teams of community members coordinate to manage Baseline, which ensures progress toward the ubiquitous implementation and adoption of the protocol.
 
@@ -59,6 +59,9 @@ Representing nonprofit organizations, multinational companies, leading startups,
 The TSC is accountable to the PGB for core developer management, code repository integrity, and defining the roadmap for Baseline.
 
 [Click here to see the complete list of TSC members](https://github.com/eea-oasis/baseline/blob/main/TECHNICAL-STEERING-COMMITTEE.md).
+<h2>Get in Touch</h2>
+<p>Join the community <a href="https://ethereum-baseline.slack.com/join/shared_invite/zt-d6emqeci-bjzBsXBqK4D7tBTZ40AEfQ#/shared-invite/email">Slack channel</a> for discussion.</p>
+<p>Follow the community on <a href="https://twitter.com/baselineproto">Twitter</a> or <a href="https://www.linkedin.com/company/baseline-protocol/">LinkedIn</a> for updates.</p>
 </div>
 </div>
 </div>
