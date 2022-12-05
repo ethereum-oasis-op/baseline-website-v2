@@ -47,7 +47,7 @@ url: "/resources/"
           </a>
         </div>
         <div class="card bg-white border-primary flex-fill flex-column card-body mb-4">
-          <a class="download-link" href="https://docs.google.com/presentation/d/18WA9w0eZGrr5YQI2jctcf1UMVtLUG2j4Efin93XLH_U/edit?usp=sharing" target="_blank" rel="noreferrer noopener">
+          <a class="download-link" href="https://drive.google.com/file/d/1nbq3muiVM9vFmmtxP5yVjevn-bHFYpMK/view?usp=sharing" target="_blank" rel="noreferrer noopener">
             <h3 class="h4 mb-1 mt-0">Master Enablement Deck</h3>
             <p class="mb-0">Tailor this deck to suit your needs when introducing the Baseline Protocol to varioius business, technical, and other personas.</p>
           </a>
