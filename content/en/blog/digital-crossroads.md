@@ -20,7 +20,7 @@ On the one hand,
 
 The advantages of digitization have been clear for a while:
 
-<img src="/blog/images/digital-crossroads/image1.png" alt="alt text" >
+<img src="/blog/images/digital-crossroads/image3.png" alt="alt text" >
 
 Source: [Financesonline](https://financesonline.com/digital-transformation-statistics/) (2022)
 
@@ -91,7 +91,7 @@ But what does that look like from a (standards-compliant) architectural point of
 
 The standard defines a BPI stack as follows:
 
-<img src="/blog/images/digital-crossroads/image3.png" alt="alt text" >
+<img src="/blog/images/digital-crossroads/image4.png" alt="alt text" >
  
 
 The different components are defined as follows:
@@ -140,7 +140,7 @@ So what is a CCSM? It is a Consensus Controlled State Machine, a network of repl
 A typical BPI transaction is visualized in the figure below:
 
 
-<img src="/blog/images/digital-crossroads/image4.png" alt="alt text" >
+<img src="/blog/images/digital-crossroads/image1.png" alt="alt text" >
 
 
 A transaction is prepared and submitted by an external application and flows through the different layers of the BPI stack -- in order are the BPI Abstraction Layer, the Middleware Layer, the Processing Layer, the CCSM Abstraction Layer, and the CCSM Layer -- and interacts with the components of each layer as required. The figure further demonstrates how the transaction result is returned to an external application after it is finalized on the CCSM layer and reverse-traverses the layers of the BPI stack interacting with the relevant components in each layer as required.
