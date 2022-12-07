@@ -41,7 +41,7 @@ url: "/resources/"
       <div class="section pt-0">
         <h2 class="mt-0">Materials</h2>
         <div class="card bg-white border-primary flex-fill flex-column card-body mb-4">
-          <a class="download-link" href="https://drive.google.com/file/d/1zWwUpV7FR1dHz9ihaIW14MgNG_M900xj/view?usp=sharing" target="_blank" rel="noreferrer noopener">
+          <a class="download-link" href="https://drive.google.com/file/d/1nbq3muiVM9vFmmtxP5yVjevn-bHFYpMK/view?usp=share_link" target="_blank" rel="noreferrer noopener">
             <h3 class="h4 mb-1 mt-0">Community Member Starter Kit</h3>
             <p class="mb-0">Understand how you can contribute as a community member and how the open source community operates.</p>
           </a>
