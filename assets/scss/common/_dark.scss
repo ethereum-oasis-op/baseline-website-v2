@@ -71,6 +71,21 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $link-color-dark;
 }
 
+[data-dark-mode] .btn-outline-dark {
+  color: $white;
+  border-color: $white;
+
+  &:hover {
+    color: $link-color-dark;
+  }
+}
+
+[data-dark-mode] .categories .container-xxl.wrap h2 > a,
+[data-dark-mode] .categories .container-xxl.wrap .h2 > a,
+[data-dark-mode] .page-custom h2 > a, .page-custom .h2 > a {
+  color: $white;
+}
+
 [data-dark-mode] body a.text-body {
   color: $body-color-dark !important;
 }

@@ -5,11 +5,12 @@ headline: Digital Business at a Crossroads
 description: Digital business is rapidly approaching a crossroads, the Baseline Protocol is here to help.
 title: Digital Business at a Crossroads
 blurb: “”
+categories: ["Technical", "Research", "Outreach", "Enterprise"]
 ---
 
 # Digital Business at a Crossroads
 
-Digital business is rapidly approaching a crossroads. 
+Digital business is rapidly approaching a crossroads.
 
 On the one hand,
 
@@ -33,11 +34,11 @@ Yet this drive to digitize business has an exponentially increasing dark side:
 
 The above two points mean that the costs of conducting digital business– security plus regulatory compliance costs– are growing exponentially. Consequently, this development will soon threaten the profitability of new and existing digital businesses.
 
-_But why now?_ Because the exponential growth of digital business costs is not new but has been happening for a long time. It has been driven by both increased distribution and decentralization of data and computing resources and the unavoidable rise in the number of connected devices. Who doesn’t have a mobile phone, a tablet, a digital watch, a laptop, one or more AI assistants, connected TVs, connected lights, connected cars, etc.? And this trend will not change, quite on the contrary as the above numbers demonstrate. 
+_But why now?_ Because the exponential growth of digital business costs is not new but has been happening for a long time. It has been driven by both increased distribution and decentralization of data and computing resources and the unavoidable rise in the number of connected devices. Who doesn’t have a mobile phone, a tablet, a digital watch, a laptop, one or more AI assistants, connected TVs, connected lights, connected cars, etc.? And this trend will not change, quite on the contrary as the above numbers demonstrate.
 
 We also know that exponential change is insidious; humans do not recognize it until it is too late. Take the classic example: If 1% of a lake’s surface is covered with water lilies and the water lily population doubles every day, the entire lake will be covered in less than a week. However, the water lilies will be barely noticeable until day 4, and then it is too late. We are currently approaching day 4 for the Internet; we are almost too late to turn the ship around.
 
-_But why do the costs grow exponentially?_ Because they arise from vulnerabilities in conducting digital business due to a lack of trust both from the point of view of regulatory compliance and cybersecurity. And the number of vulnerabilities increases with (1) the square of the number of entities (network size) that can interact with each other and (2) the number of trust boundaries crossed when those entities interact (decentralization). In other words, the attack surface of digital businesses is growing exponentially, and, therefore, also the cost of defending them. 
+_But why do the costs grow exponentially?_ Because they arise from vulnerabilities in conducting digital business due to a lack of trust both from the point of view of regulatory compliance and cybersecurity. And the number of vulnerabilities increases with (1) the square of the number of entities (network size) that can interact with each other and (2) the number of trust boundaries crossed when those entities interact (decentralization). In other words, the attack surface of digital businesses is growing exponentially, and, therefore, also the cost of defending them.
 
 Given that orchestrated security frameworks do not scale incredibly well unless you are the size of Google or Amazon, it is not surprising that failures rise and their costs rise as digital services become increasingly decentralized. Any device connected to the internet, or even an internal network, is an attack vector on your digital business.
 
@@ -53,7 +54,7 @@ This trilemma is a weaker version of the [Blockchain Trilemma](https://vitalik.c
 
 Since the overall decentralization of digital businesses is outside the control of a single entity, one is left with choosing whether to optimize the performance or the security of digital services; a seemingly impossible trade-off. However, this choice can be made easier by focusing on digital services for subnetworks. Such subnetworks have lower levels of decentralization, i.e., the number of participants, and, therefore, a business can improve security and performance by better managing its attack surface through the shift of computing and storage for digital services to a network’s edge. This is possible thanks to Moore’s Law continuing to drive down the costs of computing and storage. Therefore, a business can now focus on optimizing security at the edge.
 
-This leads to the next question: _What does security at the edge require?_ 
+This leads to the next question: _What does security at the edge require?_
 
 The answer is Zero Trust. This is a deceptively simple statement because Zero Trust at the edge means no entity trusts another entity at any given time, even if the last digital business interaction was trusted. As a consequence, every participant must be able to do several things together:
 
@@ -67,20 +68,20 @@ Since digital transactions do not occur in a vacuum we can summarize the above c
 
 The [Baseline Protocol](https://docs.baseline-protocol.org/) open-source project was conceived as a solution pattern and a [standard](https://github.com/eea-oasis/baseline-standard) for MZTZK. It is part of the [Enterprise Ethereum Alliance Community Projects](https://entethalliance.org/eeacommunityprojects/) initiative in collaboration with the[ Open Projects](https://www.oasis-open.org/projects-committees/) program of the internet standards organization OASIS.  The Baseline Protocol has inspired other standards such as the [Metro Ethernet Forums 114 standard](https://www.mef.net/resources/mef-114-dlt-based-commercial-and-operational-services-framework-billing/) (telecommunications industry) and [Polygon Nightfall](https://polygon.technology/solutions/polygon-nightfall) (an enterprise Ethereum Layer 2 scaling solution).
 
-The project was created to address known issues with B2B transactions around data synchronicity between two or more systems of record because there is no guarantee that commercial data is properly represented in an ERP system, or that the history of commercial transactions (Orders, Invoices, Credit Memos, etc.) are accurately reflected in the ERP systems of the involved parties- incorrect tax calculations or incorrect application of volume discounts to pricing are typical sources of data misalignment. These types of issues lead to hundreds of billions of dollars in opportunity costs every year across the nearly 3 trillion B2B transactions a year globally. Larger organizations with thousands or tens of thousands of business relationships globally not only have the headache of opportunity costs but also maintain one-to-one integrations between systems of record, often with arcane technology. As already discussed, the B2B situation is further complicated as more and more transactions occur at the edge and with autonomous agents originating business transactions. Examples include Alexa placing automatic product orders when certain conditions are met, and digital telecom supply chains with bundled services of voice, data-on-demand, edge security, and ephemeral telecom networks delivering services at the edge. Currently, it is impossible to detect if such complex digital supply chains are compromised and if participants are not malicious actors.   
+The project was created to address known issues with B2B transactions around data synchronicity between two or more systems of record because there is no guarantee that commercial data is properly represented in an ERP system, or that the history of commercial transactions (Orders, Invoices, Credit Memos, etc.) are accurately reflected in the ERP systems of the involved parties- incorrect tax calculations or incorrect application of volume discounts to pricing are typical sources of data misalignment. These types of issues lead to hundreds of billions of dollars in opportunity costs every year across the nearly 3 trillion B2B transactions a year globally. Larger organizations with thousands or tens of thousands of business relationships globally not only have the headache of opportunity costs but also maintain one-to-one integrations between systems of record, often with arcane technology. As already discussed, the B2B situation is further complicated as more and more transactions occur at the edge and with autonomous agents originating business transactions. Examples include Alexa placing automatic product orders when certain conditions are met, and digital telecom supply chains with bundled services of voice, data-on-demand, edge security, and ephemeral telecom networks delivering services at the edge. Currently, it is impossible to detect if such complex digital supply chains are compromised and if participants are not malicious actors.
 
 A standards-compliant Baseline Protocol implementation will support contract logic aligned with the business rules around commercial documents such as Orders and Invoices and privacy preservation through zk-proofs to achieve
 
 
 
 * the synchronizations of systems of record by enforcing data consistency through zk-proofs that can only be generated if the submitted commercial documents comply with the relevant business rules and data encoded into its zk prover systems’ program circuits,
-* complete B2B transaction audits by anyone, anytime, in real-time based on on-chain recursive zk-proofs,  
-* a high level of protection against malicious actors since all zk-proofs must be validated before being finalized by participants that can prove their identity for every transaction, 
+* complete B2B transaction audits by anyone, anytime, in real-time based on on-chain recursive zk-proofs,
+* a high level of protection against malicious actors since all zk-proofs must be validated before being finalized by participants that can prove their identity for every transaction,
 * while maintaining complete confidentiality through the very nature of the zk-proofs.
 
 How is that achieved?
 
-The simple B2B example of an Order between a Buyer and a Seller as seen in the figure below demonstrates the concept. 
+The simple B2B example of an Order between a Buyer and a Seller as seen in the figure below demonstrates the concept.
 
 <img src="/blog/images/digital-crossroads/image2.png" alt="alt text" >
 
@@ -92,7 +93,7 @@ But what does that look like from a (standards-compliant) architectural point of
 The standard defines a BPI stack as follows:
 
 <img src="/blog/images/digital-crossroads/image4.png" alt="alt text" >
- 
+
 
 The different components are defined as follows:
 
@@ -145,12 +146,12 @@ A typical BPI transaction is visualized in the figure below:
 
 A transaction is prepared and submitted by an external application and flows through the different layers of the BPI stack -- in order are the BPI Abstraction Layer, the Middleware Layer, the Processing Layer, the CCSM Abstraction Layer, and the CCSM Layer -- and interacts with the components of each layer as required. The figure further demonstrates how the transaction result is returned to an external application after it is finalized on the CCSM layer and reverse-traverses the layers of the BPI stack interacting with the relevant components in each layer as required.
 
-There are existing reference implementations with another implementation currently under active development and examples of implementations of the Baseline Protocol pattern, which can be found [here](https://github.com/eea-oasis/baseline/tree/main/examples) and [here](https://prvd-oasis.org/). 
+There are existing reference implementations with another implementation currently under active development and examples of implementations of the Baseline Protocol pattern, which can be found [here](https://github.com/eea-oasis/baseline/tree/main/examples) and [here](https://prvd-oasis.org/).
 
 Furthermore, recent developments in the Ethereum Layer 2 scaling solutions community can be leveraged directly as a BPI execution framework such as [zkEVMs](https://github.com/LuozhuZhang/awesome-zkevm) or, as already mentioned,[ Polygon Nightfall](https://polygon.technology/solutions/polygon-nightfall). These efforts demonstrate how new technology innovations and different standards neatly fit with and into the Baseline Protocol standard.
 
 Furthermore, there are current efforts underway for specific use case implementations of ZTMCZK frameworks in multiple industries, such as mobility, telecommunications, financing, and supply chain that will go live in 2023.
 
-The Baseline Protocol community is inviting everyone to join us to advance and popularize the Baseline Protocol and all its implementations as an opportunity to take the right path at the digital businesses’ crossroads that we are rapidly approaching. Learn more at [baseline-protocol.org](https://www.baseline-protocol.org/). 
+The Baseline Protocol community is inviting everyone to join us to advance and popularize the Baseline Protocol and all its implementations as an opportunity to take the right path at the digital businesses’ crossroads that we are rapidly approaching. Learn more at [baseline-protocol.org](https://www.baseline-protocol.org/).
 
- 
+
