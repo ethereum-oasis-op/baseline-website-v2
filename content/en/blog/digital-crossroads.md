@@ -6,6 +6,7 @@ description: Digital business is rapidly approaching a crossroads, the Baseline 
 title: Digital Business at a Crossroads
 blurb: “”
 categories: ["Technical", "Research", "Outreach", "Enterprise"]
+contributors: [Baseline Technical Steering Committee]
 ---
 
 # Digital Business at a Crossroads
