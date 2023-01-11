@@ -9,7 +9,7 @@ categories: ["Technical", "Research", "Outreach", "Enterprise"]
 contributors: [Baseline Technical Steering Committee]
 ---
 
-# Digital Business at a Crossroads
+**Digital Business at a Crossroads**
 
 Digital business is rapidly approaching a crossroads.
 
