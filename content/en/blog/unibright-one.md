@@ -3,12 +3,11 @@ date: 2023-01-11
 slug: "unibright-one"
 description: "A new service platform released by Unibright"
 title: "Unibright ONE – Service Platform to Synchronize Enterprise Business Processes Released by Unibright"
+contributors: [Baseline Outreach Team]
 ---
 
 
 **Unibright ONE – Service Platform to Synchronize Enterprise Business Processes Released by Unibright**
-
-By **Baseline Outreach Team**
 
 Unibright has recently released a new service platform to continue their progress in their pursuit to provide blockchain-based business process integration as outlined in the Baseline Protocol Standard. The [Baseline Protocol](https://github.com/eea-oasis/baseline-standard) is an open source standard that combines zero-knowledge cryptography, self-sovereign identity, and blockchain technology to overcome trust barriers found in digital business process automation between enterprises. Unibright’s new platform, Unibright ONE, works in concert with previous Unibright offerings that leverage inspiration from the Baseline Standard such as [Baseledger](https://baseledger.net/) and [conUBC](https://medium.com/unibrightio/unibrights-and-concircle-s-sap-connector-conubc-officially-sap-certified-c905fb57e4aa). 
 
