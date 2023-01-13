@@ -75,6 +75,11 @@ $navbar-dark-active-color:          $link-color-dark;
   color: $white;
   border-color: $white;
 
+  &.active {
+    color: $primary;
+    border-color: $primary;
+  }
+
   &:hover {
     color: $link-color-dark;
   }
