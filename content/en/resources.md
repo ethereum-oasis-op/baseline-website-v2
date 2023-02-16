@@ -53,8 +53,10 @@ url: "/resources/"
           </a>
         </div>
         <div class="card bg-white border-primary flex-fill flex-column card-body mb-4">
-          <h3 class="h4 mb-1 mt-0">Baseline Core Dev Onboarding Kit <span class="badge fs-6 bg-primary align-top ms-3">Coming soon!</span></h3>
-          <p class="mb-0">Your one stop shop to learning how to use and develop further implementations to the Baseline Protocol</p>
+        <a class="download-link" href="https://www.baseline-protocol.org/blog/the-baseics/" target="_blank" rel="noreferrer noopener">
+          <h3 class="h4 mb-1 mt-0">Baseline Architecture Blog</h3>
+          <p class="mb-0">Learn the basics of the Baseline Protocol architecture and key concepts</p>
+          </a>
         </div>
       </div>
       <div class="section pt-0">
