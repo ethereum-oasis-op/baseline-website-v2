@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en" }}" class="h-100">
+  <meta name="Baseline Protocol" content="{{ .Title }} | {{ .Site.Title }}" />
+  <meta name="the Baseline Protocol" content="{{ .Params.description }}" />
+  <meta name="robots" content="index,follow" />
+  <meta name="googlebot" content="index,follow" />
   {{ partial "head/head.html" . }}
   {{ if eq .Kind "home" -}}
     {{ .Scratch.Set "class" "home" -}}

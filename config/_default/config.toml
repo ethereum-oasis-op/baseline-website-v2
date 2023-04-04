@@ -1,4 +1,5 @@
 baseurl = "https://www.baseline-protocol.org/"
+title = "Baseline Protocol"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
