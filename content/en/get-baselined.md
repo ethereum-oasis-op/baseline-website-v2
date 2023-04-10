@@ -49,7 +49,7 @@ url: "/get-baselined/"
         <li>Solutions</li>
       </ul>
       <p class="mb-0">
-        <strong>Details:</strong> <a href="https://montech.io/projects">https://montech.io/projects</a>
+        <strong>Details:</strong> <a href="https://www.montech.io/contact-us">https://www.montech.io/contact-us</a>
       </p>
     </div>
   </div>
