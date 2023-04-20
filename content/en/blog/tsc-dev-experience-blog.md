@@ -9,7 +9,7 @@ contributors: [Baseline Technical Steering Committee]
 ---
 
 
-# Becoming a Core Dev
+# Becoming a Baseline Core Dev
 
 The Baseline Protocol is an open-source initiative that uses blockchain technology to help multiple enterprises collaborate securely and privately, also called Multi-Party Zero Trust under Zero-Knowledge (MZTZK) A blog that covers the basic architecture can be found [here](https://www.baseline-protocol.org/blog/the-baseics/). As more organizations adopt the Baseline Protocol Standard and its implementations, the need for skilled developers to help maintain and improve the Baseline Protocol becomes increasingly important. In this blog, we'll explore what it's like to become a maintainer (Core Dev) for the Baseline Protocol.
 
@@ -50,7 +50,7 @@ AmsterBased was an event hosted by the baseline community in Amsterdam in 2022, 
 Alongside the in-person event, we also hosted a six-week-long online hackathon-style BLIP Bounty. Leading up to the start of this event, members of the community submitted ideas for short BLIPs (Baseline Improvement Proposals) that participants would be able to ideate on and create a small application within the six-week timeframe. The sole purpose of the BLIP Bounty Hunt was to enable new developers and create opportunities to enter the ecosystem without too steep of an on-ramp. 
 
 
-## Firsthand Experience
+## First Hand Experience
 
 One of the suggested BLIPs was to create a ‘calendly’ style application where Bob can book a meeting with Alice at a date and time in which both of them are available, without allowing Bob to see when exactly Alice is busy. This BLIP was picked up by Vaibhav Maheshwari, who before the AmsterBased event, had no exposure to baseline. When asked about his experience, he had the following to say: 
 
@@ -67,9 +67,8 @@ Interested in seeing what has been, or is being cooked up by the core dev commun
 
 
 * **Battleship**: The Baseline Battleship example is a powerful demonstration of the capabilities of the Baseline Protocol. This Baseline Battleship example demonstrates the protocol’s ability to protect sensitive data while maintaining interoperability across different systems. This example can be found [here](https://github.com/eea-oasis/baseline/tree/main/examples/battleship).
-* **Baseline Protocol Monolith Test Suite (BLIP6): **BLIP-6** **is a comprehensive suite of tests designed to ensure that incoming Core Devs had an initial starting point to help reduce the learning curve of development for the Baseline Protocol. The test suite covers a wide range of implementations, including identity management, message handling, and cryptographic operations. This test suite can be found [here](https://github.com/eea-oasis/baseline/tree/main/examples/bpi-monolith-test-suite).
-* **Simple Reference Implementation: **The Baseline Reference Implementation 3 (BRI-3), also known as Simple Reference Implementation (SRI), is an open-source reference implementation of the Baseline Protocol. Although still in progress, it is designed to be the first simple, yet comprehensive, starting point for developers looking to build their own Baseline Protocol implementations, allowing them to quickly get up and running with the Baseline Protocol and providing a solid foundation for more advanced implementations. The SRI can be found [here](https://github.com/eea-oasis/baseline/tree/main/examples/bri-3).
-
+* **Baseline Protocol Monolith Test Suite (BLIP6):** BLIP-6 is a comprehensive suite of tests designed to ensure that incoming Core Devs had an initial starting point to help reduce the learning curve of development for the Baseline Protocol. The test suite covers a wide range of implementations, including identity management, message handling, and cryptographic operations. This test suite can be found [here](https://github.com/eea-oasis/baseline/tree/main/examples/bpi-monolith-test-suite).
+* **Simple Reference Implementation:** The Baseline Reference Implementation 3 (BRI-3), also known as Simple Reference Implementation (SRI), is an open-source reference implementation of the Baseline Protocol. Although still in progress, it is designed to be the first simple, yet comprehensive, starting point for developers looking to build their own Baseline Protocol implementations, allowing them to quickly get up and running with the Baseline Protocol and providing a solid foundation for more advanced implementations. The SRI can be found [here](https://github.com/eea-oasis/baseline/tree/main/examples/bri-3).
 
 # Never a Better Time
 
@@ -83,7 +82,8 @@ By joining the Baseline Protocol community and becoming a core developer, you ca
 
 In addition to the upcoming Interop Fest and Baseline Roadshow, there are many other reasons to become a Baseline Protocol core developer, including the opportunity to work with cutting-edge technology, gain valuable experience in a rapidly evolving field, and be part of a supportive and collaborative community of like-minded individuals. 
 
-If you're interested in blockchain, distributed systems, or enterprise software development, now is the perfect time to get involved and start building with the Baseline Protocol. Join our Slack channel [here](https://join.slack.com/t/ethereum-baseline/shared_invite/zt-1tcu9q5r6-K6BysxIExVxYl875G2B_uQ) to get started!
+If you're interested in blockchain, distributed systems, or enterprise software development, now is the perfect time to get involved and start building with the Baseline Protocol. Sign up [here](https://www.baseline-protocol.org/get-involved/) or join our Slack Channel [here](https://join.slack.com/t/ethereum-baseline/shared_invite/zt-1tcu9q5r6-K6BysxIExVxYl875G2B_uQ) to get involved!
+
 
 
 --
