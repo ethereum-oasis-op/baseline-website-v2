@@ -2,7 +2,7 @@
 date: 2023-08-02
 slug: global-supply-chain-ccsm
 headline: 'Global Supply Chain Coordination via Baseline Protocol'
-description: The Consensus Controlled State Machine
+description: A global supply chain includes many participants, who use various systems of records that are disconnected and heterogeneous. Coordination of participants is done mainly by exchanging data via emails and files
 title: 'Global Supply Chain Coordination via Baseline Protocol & The Consensus Controlled State Machine'
 categories: ["Technical", "Outreach", "Core Dev"]
 contributors: [Baseline Technical Steering Committee]
