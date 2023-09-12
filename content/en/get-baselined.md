@@ -22,20 +22,6 @@ url: "/get-baselined/"
 <div class="section pt-0">
 <h2 class="mt-0">Get Baselined With:</h2>
 <div class="row row-cols-1 mt-4">
-  <div class="col d-flex">
-    <div class="card bg-white border-primary mt-0 card-body flex-fill py-4 mb-4">
-      <h2 class="h3 mt-0 sr-only">ConsenSys Mesh</h2>
-      <img src="/images/sponsors/logo-consensys-mesh-white.webp" alt="" width="200" class="logo-dark mb-4" loading="lazy">
-      <img src="/images/sponsors/logo-consensys-mesh.png" alt="" width="200" class="logo-light mb-4" loading="lazy">
-      <p> The <a href="https://www.mesh.xyz/applied-research-development">Enterprise ZK R&D team</a> at ConsenSys Mesh offers rapid prototyping, solutions architecture, and implementation support for  Baseline Protocol, zkEVM, and associated technologies. Please reach out to discuss further.</p>
-      <ul class="checkmarks">
-        <li>Platforms/Tools</li>
-        <li>Solutions</li>
-        <li>Developer Education</li>
-      </ul>
-      <p class="mb-0">
-        <strong>Contact:</strong> <a href="mailto:baseline@mesh.xyz">baseline@mesh.xyz</a>
-      </p>
     </div>
   </div>
   <div class="col d-flex">
