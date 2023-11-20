@@ -39,22 +39,6 @@ url: "/get-baselined/"
       </p>
     </div>
   </div>
-  <div class="col d-flex">
-    <div class="card bg-white border-primary mt-0 card-body flex-fill py-4 mb-4">
-      <h2 class="h3 mt-0 sr-only">Provide</h2>
-      <img src="/images/sponsors/logo-provide.png" alt="" width="200" class="logo-light mb-4" loading="lazy">
-      <img src="/images/sponsors/logo-provide-white.svg" alt="" width="200" class="logo-dark mb-4" loading="lazy">
-      <p>PRVD is an openly-governed, open-source project that advances the leading production-grade reference implementation of the Baseline Protocol. With Shuttle, the first web3 no-code synchronization solution, customers can transform existing business processes (ERP, CRM) into tokenized assets and entirely new business models. PRVD marshals zero knowledge proofs from inception to defi. Synchronize with Provide.</p>
-      <ul class="checkmarks">
-        <li>Platforms/Tools</li>
-        <li>Solutions</li>
-        <li>Developer Education</li>
-      </ul>
-      <p class="mb-0">
-        <strong>Contact:</strong> <a href="mailto:baseline@provide.services">baseline@provide.services</a>
-      </p>
-    </div>
-  </div>
 </div>
 </div>
 <div class="section pt-0">
