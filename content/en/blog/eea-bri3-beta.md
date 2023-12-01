@@ -1,6 +1,6 @@
 ---
 date: 2023-11-30
-slug: baseline-bri-milestone
+slug: baseline-bri-milestone-beta
 headline: New Baseline Protocol Reference Implementation Hits Beta Version
 description: Baseline Reference Implementation-3 (BRI-3) has entered its beta version
 title: New Baseline Protocol Reference Implementation Hits Beta Version
