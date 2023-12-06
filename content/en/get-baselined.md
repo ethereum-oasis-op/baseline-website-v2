@@ -24,21 +24,6 @@ url: "/get-baselined/"
 <div class="row row-cols-1 mt-4">
     </div>
   </div>
-  <div class="col d-flex">
-    <div class="card bg-white border-primary mt-0 card-body flex-fill py-4 mb-4">
-      <h2 class="h3 mt-0 sr-only">Montech</h2>
-      <img src="/images/sponsors/logo-montech-white.png" alt="" width="200" class="logo-dark mb-4" loading="lazy">
-      <img src="/images/sponsors/logo-montech.png" alt="" width="200" class="logo-light mb-4" loading="lazy">
-      <p>Using the special blockchain framework - Provide SDK, built by our team of engineers with Baseline technology, we created a donation and contribution platform called eCETP - eCommerce Exchange Trading Platform. This application offers the opportunity to seamlessly raise funds for campaigns and community projects from a community of donors and partners. It leverages on the power of Provide SDK to verify transactions and ensure the security of funds.</p>
-      <ul class="checkmarks">
-        <li>Platforms/Tools</li>
-        <li>Solutions</li>
-      </ul>
-      <p class="mb-0">
-        <strong>Details:</strong> <a href="https://www.montech.io/contact-us">https://www.montech.io/contact-us</a>
-      </p>
-    </div>
-  </div>
 </div>
 </div>
 <div class="section pt-0">
