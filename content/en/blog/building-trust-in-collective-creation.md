@@ -1,9 +1,9 @@
 ---
 date: 2024-03-19
 slug: building-trust-in-collective-creation
-headline: Building Trust in Collective Creation
-description:  How the Baseline Protocol Can Empower Secure Generative AI
-title: Adrift In An Ocean Of Data
+headline: How the Baseline Protocol Can Empower Secure Generative AI
+description:  
+title:  Building Trust in Collective Creation 
 blurb: “”
 categories: ["Core Dev", "Technical", "Example", "Research"]
 contributors: [Baseline Technical Steering Committee]
