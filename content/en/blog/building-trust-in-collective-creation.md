@@ -1,3 +1,5 @@
+![Collective Creation](images/building-trust-in-collective-creation.png)
+
 # Building Trust in Collective Creation: How the Baseline Protocol Can Empower Secure Generative AI
 
 Generative AI models, capable of crafting everything from realistic text to stunning visuals, drive immense, and disruptive innovations across industries. However, these models, often developed by single entities, raise concerns about bias, security, and control. The Baseline Protocol, an emerging framework for trustable collaborative business process automation, offers a promising solution, fostering trust and security in models built by diverse communities rather than one single entity – in the race to create the one to rule them all.
