@@ -9,7 +9,8 @@ categories: ["Core Dev", "Technical", "Example", "Research"]
 contributors: [Baseline Technical Steering Committee]
 ---
 
-![Collective Creation](images/building-trust-in-collective-creation.png)
+
+<img src="/blog/images/building-trust-in-collective-creation.png" alt="alt text" >
 
 # Building Trust in Collective Creation: How the Baseline Protocol Can Empower Secure Generative AI
 
