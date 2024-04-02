@@ -1,5 +1,5 @@
 ---
-date: 2024-03-19
+date: 2024-04-01
 slug: building-trust-in-collective-creation
 headline: How the Baseline Protocol Can Empower Secure Generative AI
 description:  
