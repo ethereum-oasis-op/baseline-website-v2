@@ -4,7 +4,7 @@ slug: building-trust-in-collective-creation
 headline: How the Baseline Protocol Can Empower Secure Generative AI
 description:  
 title:  Building Trust in Collective Creation 
-blurb: “”
+blurb: “How the Baseline Protocol Can Empower Secure Generative AI”
 categories: ["Core Dev", "Technical", "Example", "Research"]
 contributors: [Baseline Technical Steering Committee]
 ---
