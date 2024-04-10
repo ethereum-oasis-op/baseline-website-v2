@@ -58,7 +58,7 @@ You want to contribute to the Baseline website? Awesome! Get up and running in t
 
 ### 1. Clone repo
 ```bash
-git clone https://github.com/eea-oasis/baseline-website.git baseline-website && cd baseline-website
+git clone https://github.com/ethereum-oasis-op/baseline-website.git baseline-website && cd baseline-website
 ```
 
 ### 2. Switch to proper Node version and install dependencies
