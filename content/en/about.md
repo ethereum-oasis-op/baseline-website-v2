@@ -16,7 +16,7 @@ menu:
 
 <h2 class="mt-0"> What is the Baseline Protocol?</h2>
 
-The Baseline Protocol initiative was [announced](https://consensys.net/blog/press-release/ey-and-consensys-announce-formation-of-baseline-protocol-initiative-to-make-ethereum-mainnet-safe-and-effective-for-enterprises/) on March 4, 2020 and launched as an open source / open standards project, governed by the [OASIS Open](https://oasis-open.org) standards body under the [EEA Community Projects](https://entethalliance.org/eeacommunityprojects/) program.
+The Baseline Protocol initiative was [announced](https://consensys.net/blog/press-release/ey-and-consensys-announce-formation-of-baseline-protocol-initiative-to-make-ethereum-mainnet-safe-and-effective-for-enterprises/) on March 4, 2020 and launched as an open source / open standards project, governed by the [OASIS Open](https://oasis-open.org) standards body under the [Ethereum OASIS Open Project]. From 29 June 2021 to 8 April 2024, the Ethereum OASIS Open Project was known as EEA Community Projects.
 
 Baseline is a set of tools and libraries that enables enterprises to synchronize complex, multiparty, business processes with privacy and without putting any sensitive information on shared databases or any kind of blockchain.
 
@@ -41,10 +41,7 @@ Several organizations and teams of community members coordinate to manage Baseli
 <img data-src="/images/diagram.png" alt="" class="lazyload img-fluid">
 
 <h3>OASIS</h3>
-OASIS, as a standards body, employs key personnel and resources to manage the Baseline Protocol as a project within their Ethereum-Oasis projects.
-
-<h3>Enterprise Ethereum Alliance</h3>
-Enterprise Ethereum Alliance maintains a team that supports the Baseline Protocol as an EEA Community Project.
+OASIS, as a standards body, employs key personnel and resources to manage the Baseline Protocol as a project within their Ethereum OASIS Open Project.
 
 <h3>Project Governance Board (PBG)</h3>
 
