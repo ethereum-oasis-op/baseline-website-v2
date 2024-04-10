@@ -12,28 +12,28 @@ url: "/resources/"
   <div class="row justify-content-center">
     <div class="col-md-16 col-lg-14 col-xl-14">
 <div class="section">
-        <h2><a href="https://github.com/eea-oasis/baseline-standard" target="_blank" rel="noreferrer noopener">Read the standard</a></h2>
+        <h2><a href="https://github.com/ethereum-oasis-op/baseline-standard" target="_blank" rel="noreferrer noopener">Read the standard</a></h2>
         <p>Read the 3 Baseline specfications in development</p>
         <div class="row row-cols-lg-3">
           <div class="col d-flex">
             <div class="card bg-white border-primary flex-fill flex-column card-body mb-4">
             <h3 class="h4">Baseline Core</h3>
             <p>Describes the minimal set of business and technical prerequisites, functional and non-functional requirements, together with a reference architecture that when implemented ensures that two or more systems of record can synchronize.</p>
-            <a href="https://github.com/eea-oasis/baseline-standard/tree/main/core" class="mt-auto btn btn-lg btn-primary">Read more</a>
+            <a href="https://github.com/ethereum-oasis-op/baseline-standard/tree/main/core" class="mt-auto btn btn-lg btn-primary">Read more</a>
             </div>
           </div>
           <div class="col d-flex">
             <div class="card bg-white border-primary flex-fill flex-column card-body mb-4">
             <h3 class="h4">Baseline API & Data Model</h3>
             <p>Describes the Baseline programming interface and expected behaviors of all instances of this interface together with the required programming interface data model.</p>
-            <a href="https://github.com/eea-oasis/baseline-standard/tree/main/api" class="mt-auto btn btn-lg btn-primary">Read more</a>
+            <a href="https://github.com/ethereum-oasis-op/baseline-standard/tree/main/api" class="mt-auto btn btn-lg btn-primary">Read more</a>
             </div>
           </div>
           <div class="col d-flex">
             <div class="card bg-white border-primary flex-fill flex-column card-body mb-4">
             <h3 class="h4">Permissionless CCSM Requirements</h3>
             <p>Describes required and assumed properties and qualities of a singleton state machine and its operating environment for such a CCSM to safely synchronize two or more enterprise systems of record.</p>
-            <a href="https://github.com/eea-oasis/baseline-standard/tree/main/ccsm" class="mt-auto btn btn-lg btn-primary">Read more</a>
+            <a href="https://github.com/ethereum-oasis-op/baseline-standard/tree/main/ccsm" class="mt-auto btn btn-lg btn-primary">Read more</a>
             </div>
           </div>
         </div>
@@ -83,16 +83,16 @@ url: "/resources/"
           <div class="col d-flex">
             <div class="card card-xxl flex-fill">
               <div class="card-body">
-                <h2 class="mt-0"><a href="https://github.com/orgs/eea-oasis/repositories" target="_blank" rel="noreferrer noopener">View the repo</a></h2>
-                <a href="https://github.com/orgs/eea-oasis/repositories" class="mb-4">
+                <h2 class="mt-0"><a href="https://github.com/ethereum-oasis-op" target="_blank" rel="noreferrer noopener">View the repo</a></h2>
+                <a href="https://github.com/ethereum-oasis-op/baseline" class="mb-4">
                   <h3 class="h4">Look through the code</h3>
                   <p>View the core and baseline reference implementation packages.</p>
                 </a>
-                <a href="https://github.com/eea-oasis/baseline-blips" class="mb-4">
+                <a href="https://github.com/ethereum-oasis-op/baseline-blips" class="mb-4">
                   <h3 class="h4">Add Baseline Improvement Proposals (BLIPs)</h3>
                   <p>Suggest improvements and additions to Baseline for our community members to work on.</p>
                 </a>
-                <a href="https://github.com/eea-oasis/baseline-grants">
+                <a href="https://github.com/ethereum-oasis-op/baseline-grants">
                   <h3 class="h4">Submit a Grant or Bounty Idea</h3>
                   <p>Apply for a grant to recieve funds for your work, or submit a bounty idea or RFP to propose funding for work that is needed.</p>
                 </a>
