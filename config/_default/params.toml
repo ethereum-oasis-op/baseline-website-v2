@@ -26,7 +26,7 @@ schemaName = "Baseline Protocol"
 schemaAuthor = "OASIS"
 schemaAuthorTwitter = "https://twitter.com/OASISopen"
 schemaAuthorLinkedIn = "https://www.linkedin.com/company/oasis/"
-schemaAuthorGitHub = "https://github.com/eea-oasis"
+schemaAuthorGitHub = "https://github.com/ethereum-oasis-op"
 schemaLocale = "en-US"
 schemaLogo = "logo-baseline-protocol.svg"
 schemaLogoWidth = 512
@@ -36,7 +36,7 @@ schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/baselineproto"
 schemaLinkedIn = "https://www.linkedin.com/company/baseline-protocol/"
-schemaGitHub = "https://github.com/eea-oasis/baseline"
+schemaGitHub = "https://github.com/ethereum-oasis-op/baseline"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
