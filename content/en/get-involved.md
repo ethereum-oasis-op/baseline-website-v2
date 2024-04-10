@@ -53,7 +53,7 @@ url: "/get-involved/"
           <h3 class="h4 mt-0">Baseline Protocol Grant Fund </h3>
           <p><strong>The Baseline Protocol has a yearly grant program for funding various R&D initiatives, implementation developments, and other community projects.</strong></p>
           <p>Grant applications can be submitted by individuals or teams to propose allocation of Baseline grant funds to a specific project. A grant bounty can also be submitted for ideas or RFPs of work to be done. </p>
-          <a href="https://github.com/eea-oasis/baseline-grants" class="btn btn-lg btn-primary mt-auto ms-0" target="_blank" rel="noreferrer noopener">Learn more here</a>
+          <a href="https://github.com/ethereum-oasis-op/baseline-grants" class="btn btn-lg btn-primary mt-auto ms-0" target="_blank" rel="noreferrer noopener">Learn more here</a>
         </div>
       </div>
       <div class="col d-flex">
@@ -61,7 +61,7 @@ url: "/get-involved/"
           <h3 class="h4 mt-0">Baseline Improvement Proposals (BLIPs)</h3>
           <p><strong>Have an idea on how to make Baseline even better? Want to propose your ideas to the Baseline community, and work with others to implement your idea?</strong></p>
           <p>BLIP work can be considered for funding through our grant fund.</p>
-          <a href="https://github.com/eea-oasis/baseline-blips" class="btn btn-lg btn-primary mt-auto ms-0" target="_blank" rel="noreferrer noopener">Submit a BLIP</a>
+          <a href="https://github.com/ethereum-oasis-op/baseline-blips" class="btn btn-lg btn-primary mt-auto ms-0" target="_blank" rel="noreferrer noopener">Submit a BLIP</a>
         </div>
       </div>
     </div>
