@@ -47,13 +47,13 @@ The PBG serves as a cross-section of the community, organized by OASIS.
 
 Representing nonprofit organizations, multinational companies, leading startups, and the stakeholder community at-large, the PGB is accountable for ensuring the balance and integrity of the Baseline Protocol.
 
-[Click here to see the complete list of our PGB members](https://github.com/eea-oasis/managed-open-project/blob/main/PROJECT-GOVERNING-BOARD.md)
+[Click here to see the complete list of our PGB members](https://github.com/ethereum-oasis-op/oasis-open-project/blob/main/PROJECT-GOVERNING-BOARD.md)
 
 <h3>Technical Steering Committee (TSC)</h2>
 
 The TSC is accountable to the PGB for core developer management, code repository integrity, and defining the roadmap for Baseline.
 
-[Click here to see the complete list of TSC members](https://github.com/eea-oasis/baseline/blob/main/TECHNICAL-STEERING-COMMITTEE.md).
+[Click here to see the complete list of TSC members](https://github.com/ethereum-oasis-op/baseline/blob/main/TECHNICAL-STEERING-COMMITTEE.md).
 <h2>Get in Touch</h2>
 <p>Join the community <a href="https://ethereum-baseline.slack.com/join/shared_invite/zt-d6emqeci-bjzBsXBqK4D7tBTZ40AEfQ#/shared-invite/email">Slack channel</a> for discussion.</p>
 <p>Follow the community on <a href="https://twitter.com/baselineproto">Twitter</a> or <a href="https://www.linkedin.com/company/baseline-protocol/">LinkedIn</a> for updates.</p>
