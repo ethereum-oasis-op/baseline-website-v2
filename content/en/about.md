@@ -38,8 +38,6 @@ Zero Knowledge circuits employ a common frame of reference that allows all parti
 <h2 class="mt-0">Open Source Community Operations</h2>
 Several organizations and teams of community members coordinate to manage Baseline, which ensures progress toward the ubiquitous implementation and adoption of the protocol.
 
-<img data-src="/images/diagram.png" alt="" class="lazyload img-fluid">
-
 <h3>OASIS</h3>
 OASIS, as a standards body, employs key personnel and resources to manage the Baseline Protocol as a project within their Ethereum OASIS Open Project.
 
