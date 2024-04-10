@@ -16,7 +16,7 @@ menu:
 
 <h2 class="mt-0"> What is the Baseline Protocol?</h2>
 
-The Baseline Protocol initiative was [announced](https://consensys.net/blog/press-release/ey-and-consensys-announce-formation-of-baseline-protocol-initiative-to-make-ethereum-mainnet-safe-and-effective-for-enterprises/) on March 4, 2020 and launched as an open source / open standards project, governed by the [OASIS Open](https://oasis-open.org) standards body under the [Ethereum OASIS Open Project]. From 29 June 2021 to 8 April 2024, the Ethereum OASIS Open Project was known as EEA Community Projects.
+The Baseline Protocol initiative was [announced](https://consensys.net/blog/press-release/ey-and-consensys-announce-formation-of-baseline-protocol-initiative-to-make-ethereum-mainnet-safe-and-effective-for-enterprises/) on March 4, 2020 and launched as an open source / open standards project, governed by the [OASIS Open](https://oasis-open.org) standards body under the [Ethereum OASIS Open Project](https://github.com/ethereum-oasis-op). From 29 June 2021 to 8 April 2024, the Ethereum OASIS Open Project was known as EEA Community Projects.
 
 Baseline is a set of tools and libraries that enables enterprises to synchronize complex, multiparty, business processes with privacy and without putting any sensitive information on shared databases or any kind of blockchain.
 
