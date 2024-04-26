@@ -1,3 +1,14 @@
+---
+date: 2024-04-08
+slug: Q2-2024-status-update
+headline: Baseline Protocol - Q2 2024 Status Update
+description:
+title:  Baseline Protocol - Q2 2024 Status Update
+blurb: “How the Baseline Protocol Progressing in the Last Quarter”
+categories: ["Core Dev", "Update"]
+contributors: [Baseline Technical Steering Committee]
+---
+
 # Baseline Protocol - Q2 2024 Status Update 
 
 While the Baseline Protocol community has been quieter lately, our core members have been diligently working behind the scenes to advance the technical specification.
