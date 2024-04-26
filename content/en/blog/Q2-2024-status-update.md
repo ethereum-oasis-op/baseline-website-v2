@@ -1,5 +1,5 @@
 ---
-date: 2024-04-08
+date: 2024-04-25
 slug: Q2-2024-status-update
 headline: Baseline Protocol - Q2 2024 Status Update
 description:
