@@ -11,10 +11,9 @@ contributors: [Baseline Technical Steering Committee]
 
 ## Preventing Disputes In Supply Chain Collaborations With Proper Systems Synchronization
 
-
 # Headline: Streamlining Cross-Company Processes - The Baseline Protocol’s ERP Agnostic Approach
 
-Supply chain collaborations involve cross-company business processes with a high probability of disputes that involve many ERPs. A lack or loss of state consistency among ERPs could lead to these disputes or issues. It's challenging to assign an exact cost, but Gartner estimates on average, annual cost of $12.9 million per organization for poor data quality. One contributing factor is the lack of a solution to obtain reliable and up-to-date business partner data. Add to this the indirect costs, such as a drop in customer satisfaction, impacts on a company’s reputation, or loss of future business opportunities, which could significantly increase the financial impact.
+Supply chain collaborations involve cross-company business processes with a high probability of disputes that involve many ERPs. A lack or loss of state consistency among ERPs could lead to these disputes or issues. It's challenging to assign an exact cost, but [Gartner](https://www.gartner.com/smarterwithgartner/how-to-improve-your-data-quality) estimates on average, annual cost of $12.9 million per organization for poor data quality. One contributing factor is the lack of a solution to obtain reliable and up-to-date business partner data. Add to this the indirect costs, such as a drop in customer satisfaction, impacts on a company’s reputation, or loss of future business opportunities, which could significantly increase the financial impact.
 
 A good example of this scenario is an international automobile manufacturing company, let's call it AutoX, which outsources parts manufacturing to various suppliers across the globe. Each supplier, as well as AutoX, has its own ERP system to manage inventory, production, and deliveries.
 
