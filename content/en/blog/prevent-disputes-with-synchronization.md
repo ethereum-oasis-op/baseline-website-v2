@@ -1,7 +1,7 @@
 ---
 date: 2024-04-26
 slug: prevent-disputes-with-synchronization
-headline: Streamlining Cross-Company Processes - The Baseline Protocol’s ERP Agnostic Approach
+headline: Preventing Disputes In Supply Chain Collaborations With Proper Systems Synchronization
 description:
 title:  Preventing Disputes In Supply Chain Collaborations With Proper Systems Synchronization
 blurb: “Streamlining Cross-Company Processes - The Baseline Protocol’s ERP Agnostic Approach”
