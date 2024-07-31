@@ -10,7 +10,7 @@ contributors: [Baseline Technical Steering Committee]
 ---
 
 
-<img src="/images/cybersecurity-in-age-of-gen-ai/global-threat-landscape.png" alt="Fig.1: The Global Threat Landscape" title="Fig.1: The Global Threat Landscape">
+<img src="/blog/images/cybersecurity-in-age-of-gen-ai/global-threat-landscape.png" alt="Fig.1: The Global Threat Landscape" title="Fig.1: The Global Threat Landscape">
 
 # Cybersecurity in the Age of GenAI: Coping with the Exponential Web of Change
 
@@ -46,7 +46,7 @@ The [Baseline Protocol](https://docs.baseline-protocol.org/) open-source project
 
 ## Key Technologies Enabling MZTZK
 
-<img src="/images/cybersecurity-in-age-of-gen-ai/mztzk.png" alt=" Fig.2: Visualization of an MZTZK environment between multiple enterprises" title=" Fig.2: Visualization of an MZTZK environment between multiple enterprises">
+<img src="/blog/images/cybersecurity-in-age-of-gen-ai/mztzk.png" alt=" Fig.2: Visualization of an MZTZK environment between multiple enterprises" title=" Fig.2: Visualization of an MZTZK environment between multiple enterprises">
 
 MZTZK leverages several key technologies to achieve its objectives:
 
