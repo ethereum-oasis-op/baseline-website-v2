@@ -1,5 +1,5 @@
 ---
-date: 2024-06-06
+date: 2024-07-30
 slug: cybersecurity-in-age-of-gen-ai
 headline: Cybersecurity in the Age of GenAI
 description:
